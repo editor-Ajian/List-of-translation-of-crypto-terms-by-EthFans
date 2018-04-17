@@ -4,3 +4,11 @@ This is a table of translation of cryptoterms.
 
 We will write it in markdown style.
 
+Below are basic requirements.
+
+First, the basic format is "Term-translation-simple_introduction".
+
+Second, we need to sort terms according to areas to which the term is belong. So the order is different from alphabet order, which means that we need another table of xontents or a tools for searching.
+
+Third, if needed, the proposer of translation and introduction could provide source to support his/her ideas. It will be better that these sources are from EthFans.org. If we have not such content, we recommand cited sources should not be too technical so ethfans' translator could translate related articles which are cited.
+
