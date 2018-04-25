@@ -36,4 +36,4 @@
 	本表的版权事宜，EthFans 将会与贡献者讨论之后采取进一步的方案。
 	所有参与的贡献者，视为基本同意现行的版权处理方案，但随时有权提出其它方案。
 
-The test is done. We konw how to fix conflict.
+It is a draft.
