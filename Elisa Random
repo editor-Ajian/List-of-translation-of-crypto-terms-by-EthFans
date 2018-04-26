@@ -1,4 +1,8 @@
 测试一下pull request~~~
 
-第三行应该也还是可以添加进去
-看看我在第四行的编辑会有什么结果……啦啦啦~~~
+Pull request test 2 is done.
+
+逻辑是这样的：
+
+owner 在 repo 的改动，contributor 除非先 delete repo + fork，否则是无法跟进 owner 的改进的。
+因此，如果 owner 作了改动，因为版本不同，则必然冲突，要求手动 merge。手动 merge 即是审核，保证不会无意完全覆盖原来的东西。
