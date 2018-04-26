@@ -1,4 +1,4 @@
-贡献者请点击[这里](#tongzhi)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
+贡献者请点击[这里](#tonggao)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
 
 ### Bitcoin
 
@@ -145,7 +145,7 @@ Nonce
 
 参看 Miner
 
-###Public Chain
+### Public Chain
 
 公有链；公链
 
@@ -177,7 +177,7 @@ Nonce
 
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
-<h3 id="tongzhi">通知</h3>
+<h2 id="tonggao">通告</h2>
 
 
 
