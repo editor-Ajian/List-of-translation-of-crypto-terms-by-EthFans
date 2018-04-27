@@ -1,4 +1,4 @@
-# EthFans-list-of-translation-of-crypto-terms
+# List-of-translation-of-crypto-terms-by-EthFans
 
 （贡献者必读！）
 
