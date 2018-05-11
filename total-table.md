@@ -177,6 +177,71 @@ Nonce
 
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
+### Cryptocurrency
+
+加密货币
+
+### DApp (Decentralized Application)
+
+去中心化应用程序
+
+### DAO (Decentralised Autonomous Organizations)
+
+去中心化自治组织
+
+### ASIC (Application Specific Integrated Circuit)
+
+专用集成电路
+
+### Key Pair
+
+密钥对
+
+常见于加密货币的钱包。非对称密码学术语，由公钥（Public Key）和私钥（Private Key）两部分组成。私钥的本质就是个非常大的随机数，而公钥是由私钥计算而来。
+
+### Address
+
+地址
+
+特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。
+
+### Mnemonic Phrase
+
+助记词
+
+助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。
+
+### Wallet
+
+钱包
+
+存储私钥的地方，一般指的是可以查看账户余额和交易记录，转账，对私钥加密和备份的安全工具集。
+
+### Turing Complete
+
+图灵完备
+
+### Fork
+
+分叉
+
+### Hard Fork
+
+硬分叉
+
+### Soft Fork
+
+软分叉
+
+### Genesis Block
+
+创世区块
+
+### Oracles
+
+预言机
+
+
 <h2 id="tonggao">通告</h2>
 
 
