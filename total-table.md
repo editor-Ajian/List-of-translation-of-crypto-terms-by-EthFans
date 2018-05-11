@@ -83,6 +83,18 @@
 
 参见 Smart Contract
 
+### Ethereum Improvement Proposal (EIP)
+
+以太坊改进提议
+
+EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API 及合约标准。[查看官方 EIP 网站](http://eips.ethereum.org/)
+
+### Genesis Block
+
+创世区块
+
+创世区块指区块链上的第一个区块，用来初始化相应的加密货币。
+
 ### Hash Function
 
 哈希方程；散列函数
@@ -96,6 +108,18 @@
 > ` sha256(ethfans)  ` = ` 1a64ed5b74670156e60e10d8b4f94b02347169cda06b6f1493f80db0c24f2d6c ` 
 >
 > ` sh1(ethfans) ` =  ` 37a127fc6ee44155ce50ed31d817d7a5963a10ba ` 
+
+### Know Your Customer (KYC)
+
+了解你的账户
+
+充分了解你的账户（ KYC，Know Your Customer ）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。
+
+### Merkle Tree
+
+默克尔树；梅尔克树
+
+生成一棵完整的 Merkle 树需要递归地对哈希节点对进行哈希，并将新生成的哈希节点插入到 Merkle 树中，直到只剩一个哈希节点，该节点就是 Merkle 树的根。在比特币中，叶子节点来自于单个区块中的交易。
 
 ### Miner
 
