@@ -241,6 +241,73 @@ Nonce
 
 预言机
 
+### Altcoin (Bitcoin Alternative)
+
+替代币
+
+指除了比特币以外的其他加密货币。
+
+### EEA (Enterprise Ethereum Alliance)
+
+企业以太坊联盟
+
+### Fiat Currency
+
+法币；法定货币
+
+### ICO (Initial Coin Offering)
+
+初始代币发行
+
+### KYC (Know Your Customer)
+
+认识你的客户
+
+### Lightning Network
+
+闪电网络
+
+### Raiden Network
+
+雷电网络
+
+### State Channel
+
+状态通道
+
+### Merkle Tree / Hash tree
+
+墨克树；哈希树
+
+### Mining Pool
+
+矿池
+
+### Moon / Mooning
+
+Moon / Mooning
+
+指加密货币的价格高达天文数量级别。用于阐述对资产的过去或未来充满积极心态的流行词汇。
+
+### MultiSig (Multi Signature)
+
+多重签名
+
+### Zero Knowledge Proof
+
+零知识证明
+
+### 51% Attack
+
+百分之五十一攻击
+
+### Sidechains
+
+侧链
+
+### P2P (Peer-to-Peer)
+
+点对点
 
 <h2 id="tonggao">通告</h2>
 
