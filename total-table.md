@@ -139,11 +139,11 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 >
 > 若两棵默克尔树的根哈希相同，则两棵树的结构、基础数据都必然相同。
 
-参见 [Hash Function](#Hash Function)
+参见 Hash Function
 
-参见 [Simplified Payment Velidation Node](#Simplified Payment Velidation Node)
+参见 Simplified Payment Velidation Node
 
-参见 [Light Node](#Light Node)
+参见 Light Node
 
 ### Miner
 
@@ -229,9 +229,9 @@ Nonce
 
 #### 2018-5-11
 
-（HiBlock）增加词条及简介 [Ethereum Improvement Proposal (EIP)](#Ethereum Improvement Proposal (EIP))、[Genesis Block](#Genesis Block)、[Know Your Customer (KYC)](#Know Your Customer (KYC))、[Merkle Tree](#Merkle Tree)
+（HiBlock）增加词条及简介 Ethereum Improvement Proposal (EIP)、Genesis Block、Know Your Customer (KYC)、Merkle Tree
 
-（阿剑）增加简介[Ethereum Improvement Proposal (EIP)](#Ethereum Improvement Proposal (EIP)) 以及 [Merkle Tree](#Merkle Tree)
+（阿剑）增加简介Ethereum Improvement Proposal (EIP) 以及 Merkle Tree
 
 
 
