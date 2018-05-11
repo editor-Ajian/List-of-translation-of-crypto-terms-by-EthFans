@@ -1,3 +1,5 @@
+请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
+
 贡献者请点击[这里](#tonggao)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
 
 ### Bitcoin
@@ -83,6 +85,22 @@
 
 参见 Smart Contract
 
+### Ethereum Improvement Proposal (EIP)
+
+以太坊改进提议
+
+EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API 及合约标准。[查看官方 EIP 网站](http://eips.ethereum.org/)。（HiBlock）
+
+以太坊改进提议即由以太坊社区成员无需许可而发起的建议；相关建议在获得整个社区形式上的同意之后会部署到以太坊主网上。（阿剑）
+
+参见 Ethereum
+
+### Genesis Block
+
+创世区块
+
+创世区块指区块链上的第一个区块，用来初始化相应的加密货币。（HiBlock）
+
 ### Hash Function
 
 哈希方程；散列函数
@@ -96,6 +114,36 @@
 > ` sha256(ethfans)  ` = ` 1a64ed5b74670156e60e10d8b4f94b02347169cda06b6f1493f80db0c24f2d6c ` 
 >
 > ` sh1(ethfans) ` =  ` 37a127fc6ee44155ce50ed31d817d7a5963a10ba ` 
+
+### Know Your Customer (KYC)
+
+了解你的账户
+
+充分了解你的账户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）
+
+### Merkle Tree
+
+默克尔树；梅尔克树
+
+生成一棵完整的 Merkle 树需要递归地对哈希节点对进行哈希，并将新生成的哈希节点插入到 Merkle 树中，直到只剩一个哈希节点，该节点就是 Merkle 树的根。在比特币中，叶子节点来自于单个区块中的交易。（HiBlock）
+
+默克尔树可以方便地检验数据的正确性，因此使得一些节点无需保存全部账本也可以正常发送交易；也使像移动设备这样没有大额存储空间的设备也可以使用区块链。（阿剑）
+
+例如：
+
+> 假设你有 4 个基础数据（D1、D2、D3、D4），那么生成其默克尔树根的步骤如下：
+>
+> 1. 先对四个数据分别进行哈希计算，得到 H1、H2、H3、H4
+> 2. 在 第1 步的基础上选择两个哈希值字符串加合并在一起再进行哈希计算，如 H13=H( 'H1' + 'H3' )，H24=H( 'H2' + 'H4' )
+> 3. 反复运行第 2 步，直到只剩下一个哈希值，如 H1324=H( 'H13' + 'H24' )
+>
+> 若两棵默克尔树的根哈希相同，则两棵树的结构、基础数据都必然相同。
+
+参见 [Hash Function](#Hash Function)
+
+参见 [Simplified Payment Velidation Node](#Simplified Payment Velidation Node)
+
+参见 [Light Node](#Light Node)
 
 ### Miner
 
@@ -178,6 +226,12 @@ Nonce
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
 <h2 id="tonggao">通告</h2>
+
+#### 2018-5-11
+
+（HiBlock）增加词条及简介 [Ethereum Improvement Proposal (EIP)](#Ethereum Improvement Proposal (EIP))、[Genesis Block](#Genesis Block)、[Know Your Customer (KYC)](#Know Your Customer (KYC))、[Merkle Tree](#Merkle Tree)
+
+（阿剑）增加简介[Ethereum Improvement Proposal (EIP)](#Ethereum Improvement Proposal (EIP)) 以及 [Merkle Tree](#Merkle Tree)
 
 
 
