@@ -225,6 +225,138 @@ Nonce
 
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
+### Cryptocurrency
+
+加密货币
+
+### DApp (Decentralized Application)
+
+去中心化应用程序
+
+### DAO (Decentralised Autonomous Organizations)
+
+去中心化自治组织
+
+### ASIC (Application Specific Integrated Circuit)
+
+专用集成电路
+
+### Key Pair
+
+密钥对
+
+常见于加密货币的钱包。非对称密码学术语，由公钥（Public Key）和私钥（Private Key）两部分组成。私钥的本质就是个非常大的随机数，而公钥是由私钥计算而来。
+
+### Address
+
+地址
+
+特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。
+
+### Mnemonic Phrase
+
+助记词
+
+助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。
+
+### Wallet
+
+钱包
+
+存储私钥的地方，一般指的是可以查看账户余额和交易记录，转账，对私钥加密和备份的安全工具集。
+
+### Turing Complete
+
+图灵完备
+
+### Fork
+
+分叉
+
+### Hard Fork
+
+硬分叉
+
+### Soft Fork
+
+软分叉
+
+### Genesis Block
+
+创世区块
+
+### Oracles
+
+预言机
+
+### Altcoin (Bitcoin Alternative)
+
+替代币
+
+指除了比特币以外的其他加密货币。
+
+### EEA (Enterprise Ethereum Alliance)
+
+企业以太坊联盟
+
+### Fiat Currency
+
+法币；法定货币
+
+### ICO (Initial Coin Offering)
+
+初始代币发行
+
+### KYC (Know Your Customer)
+
+认识你的客户
+
+### Lightning Network
+
+闪电网络
+
+### Raiden Network
+
+雷电网络
+
+### State Channel
+
+状态通道
+
+### Merkle Tree / Hash tree
+
+墨克树；哈希树
+
+### Mining Pool
+
+矿池
+
+### Moon / Mooning
+
+Moon / Mooning
+
+指加密货币的价格高达天文数量级别。用于阐述对资产的过去或未来充满积极心态的流行词汇。
+
+### MultiSig (Multi Signature)
+
+多重签名
+
+### Zero Knowledge Proof
+
+零知识证明
+
+### 51% Attack
+
+百分之五十一攻击
+
+### Sidechains
+
+侧链
+
+### P2P (Peer-to-Peer)
+
+点对点
+
 <h2 id="tonggao">通告</h2>
 
 #### 2018-5-11
