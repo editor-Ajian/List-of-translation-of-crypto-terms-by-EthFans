@@ -267,7 +267,7 @@ Nonce
 
 实用拜占庭容错算法
 
-PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭容错算法。该算法是 Miguel Castro (卡斯特罗)和 Barbara Liskov（利斯科夫）在1999年提出来的，解决了原始拜占庭容错算法效率不高的问题，将算法复杂度由指数级降低到多项式级，使得拜占庭容错算法在实际系统应用中变得可行。
+PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭容错算法。该算法是 Miguel Castro (卡斯特罗)和 Barbara Liskov（利斯科夫）在1999年提出来的，解决了原始拜占庭容错算法效率不高的问题，将算法复杂度由指数级降低到多项式级，使得拜占庭容错算法在实际系统应用中变得可行。(Damon Lin)
 
 ### Peer-to-Peer (P2P)
 
