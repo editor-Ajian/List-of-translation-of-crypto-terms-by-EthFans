@@ -183,9 +183,9 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 ### Know Your Customer (KYC)
 
-了解你的账户
+了解你的客户
 
-充分了解你的账户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）
+充分了解你的客户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）（Elisa 修改）
 
 ### Lightning Network
 
