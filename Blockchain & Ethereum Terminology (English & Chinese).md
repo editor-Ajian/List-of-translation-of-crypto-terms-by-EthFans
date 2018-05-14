@@ -1,6 +1,6 @@
 请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
 
-贡献者请点击[这里](#tonggao)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
+贡献者请点击[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
 
 ### Address
 
