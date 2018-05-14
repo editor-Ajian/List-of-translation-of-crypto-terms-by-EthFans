@@ -1,6 +1,6 @@
 请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
 
-贡献者请点击[这里](#tonggao)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
+贡献者请点击[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
 
 ### Address
 
@@ -129,7 +129,9 @@
 
 以太坊改进提议
 
-EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API 及合约标准。[查看官方 EIP 网站](http://eips.ethereum.org/)。（HiBlock）
+EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API 及合约标准。（bobjiang）
+
+参看 [官方 EIP 网站](http://eips.ethereum.org/)。
 
 以太坊改进提议即由以太坊社区成员无需许可而发起的建议；相关建议在获得整个社区形式上的同意之后会部署到以太坊主网上。（阿剑）
 
@@ -149,7 +151,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 创世区块
 
-创世区块指区块链上的第一个区块，用来初始化相应的加密货币。（HiBlock）
+创世区块指区块链上的第一个区块，用来初始化相应的加密货币。（bobjiang）
 
 参看 Cryptocurrency
 
@@ -183,9 +185,9 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 ### Know Your Customer (KYC)
 
-了解你的账户
+了解你的客户
 
-充分了解你的账户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）
+充分了解你的客户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（bobjiang）（Elisa 修改）
 
 ### Lightning Network
 
@@ -193,9 +195,9 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 ### Merkle Tree
 
-默克尔树；梅尔克树
+默克尔树；梅克尔树
 
-生成一棵完整的 Merkle 树需要递归地对哈希节点对进行哈希，并将新生成的哈希节点插入到 Merkle 树中，直到只剩一个哈希节点，该节点就是 Merkle 树的根。在比特币中，叶子节点来自于单个区块中的交易。（HiBlock）
+生成一棵完整的 Merkle 树需要递归地对哈希节点对进行哈希，并将新生成的哈希节点插入到 Merkle 树中，直到只剩一个哈希节点，该节点就是 Merkle 树的根。在比特币中，叶子节点来自于单个区块中的交易。（bobjiang）
 
 默克尔树可以方便地检验数据的正确性，因此使得一些节点无需保存全部账本也可以正常发送交易；也使像移动设备这样没有大额存储空间的设备也可以使用区块链。（阿剑）
 
@@ -204,7 +206,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 > 假设你有 4 个基础数据（D1、D2、D3、D4），那么生成其默克尔树根的步骤如下：
 >
 > 1. 先对四个数据分别进行哈希计算，得到 H1、H2、H3、H4
-> 2. 在 第1 步的基础上选择两个哈希值字符串加合并在一起再进行哈希计算，如 H13=H( 'H1' + 'H3' )，H24=H( 'H2' + 'H4' )
+> 2. 在 第1 步的基础上选择两个哈希值字符串合并在一起再进行哈希计算，如 H13=H( 'H1' + 'H3' )，H24=H( 'H2' + 'H4' )
 > 3. 反复运行第 2 步，直到只剩下一个哈希值，如 H1324=H( 'H13' + 'H24' )
 >
 > 若两棵默克尔树的根哈希相同，则两棵树的结构、基础数据都必然相同。
@@ -219,7 +221,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 助记词
 
-助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。（HuangFJ）
+助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如 BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。（HuangFJ）
 
 ### Miner
 
@@ -363,21 +365,6 @@ Nonce
 
 51% 攻击
 
-<h2 id="tonggao">通告</h2>
-
-#### 2018-5-11
-
-（HiBlock）增加词条及简介 Ethereum Improvement Proposal (EIP)、Genesis Block、Know Your Customer (KYC)、Merkle Tree
-
-（阿剑）增加简介Ethereum Improvement Proposal (EIP) 以及 Merkle Tree
-
-#### 2018-5-12
-
-（HuangFJ）增加词条 Cryptocurrency、Peer-to-Peer (P2P)、Sidechain、51% Attack、Zero Knowledge Proof、Multi Signature (MultiSig)、Moon / Mooning、Mining Pool、State Channel、Raiden Network、Lightning Network、Initial Coin Offering (ICO)、Fiat Currency、Enterprise Ethereum Alliance (EEA)、Bitcoin Alternative (Altcoin)、Oracle、Fork、Hard Fork、Soft Fork、Turing Complete、Wallet、Mnemonic Phrase、Address、Key Pair、Application Specific Integrated Circuit (ASIC)、Decentralised Autonomous Organizations (DAO)、Decentralized Application (DApp)。部分词条已写作简介，大部分词条缺乏简介。
-
-（阿剑）增加简介 Fiat Currency、Oracle、Decentralized Application (DApp)。
-
-（阿剑）请求删除 Moon / Mooning 词条。
 
 
 
