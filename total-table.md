@@ -3,10 +3,9 @@
 贡献者请通过[通告](#通告)其他贡献者提供的更新，阅读者可在全术语索引中点击具体术语名称，或使用 “Ctrl + F” 搜索词条。
 
 ## 全术语索引
---------------------------------------------------------------------------------
 
-- [Address](###Address)
-- [ASIC](###ASIC)
+- [Address](#address)
+- [ASIC](#ASIC)
 
 [Bitcoin](#Bitcoin)
 
@@ -70,9 +69,9 @@
 
 [回到索引](#全术语索引)
 
-### ASIC
+### Application Specific Integrated Circuit (ASIC)
 
-即 Application Specific Integrated Circuit，指为专门目的而设计的集成电路；
+为专门目的而设计的集成电路；
 
 ### Bitcoin
 
