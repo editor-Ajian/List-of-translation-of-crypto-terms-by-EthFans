@@ -30,6 +30,7 @@
 
 ### A
 
+- [Account](#account)
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
 - [回到索引](#术语首字母索引)
@@ -62,6 +63,7 @@
 - [Enterprise Ethereum Alliance (EEA)](#enterprise-ethereum-alliance-eea)
 - [Ethereum](#ethereum)
 - [Ethereum Improvement Proposal (EIP)](#ethereum-improvement-proposal-eip)
+- [External Actor](#external-actor)
 - [回到索引](#术语首字母索引)
 
 ### F
@@ -163,11 +165,23 @@
 
 ## 术语表详情
 
+### Account
+
+账户
+
+每个账户都有一个内在的余额和交易计数器，作为以太坊状态的一部分。账户中还含有一些（可能是留空的）以太坊虚拟机代码和一个与其关联的（可能是留空的）存储状态。账户实际上有两种类型，虽然两者非常相似，但也需区分：一类账户中的关联EVM代码是留空的（因此该类账户余额由外部操作者控制）；另一类账户中的关联EVM代码不为空（因此该类账户代表一个独立对象）。每个账户都有唯一与之对应的地址。——《以太坊黄皮书》（Elisa Jiang）
+
+参看 [Address](#address)
+
+[回到索引](#术语首字母索引)
+
 ### Address
 
 地址
 
 特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。（HuangFJ）
+
+用于账户识别的160字节代码。——《以太坊黄皮书》 （Elisa Jiang）
 
 [回到索引](#术语首字母索引)
 
@@ -326,6 +340,14 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 以太坊改进提议即由以太坊社区成员无需许可而发起的建议；相关建议在获得整个社区形式上的同意之后会部署到以太坊主网上。（阿剑）
 
 参看 [Ethereum](#ethereum)
+
+[回到索引](#术语首字母索引)
+
+### External Actor
+
+外部操作者
+
+能够与以太坊节点交互的，存在于以太坊世界之外的个人或实体。外部操作者可以通过存入签名交易、检查区块链及其状态来与以太坊交互，可以拥有一个或多个账户。——《以太坊黄皮书》（Elisa Jiang)
 
 [回到索引](#术语首字母索引)
 
