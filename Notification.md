@@ -19,3 +19,7 @@
 ## 2018-5-14
 
 (Damon Lin)增加词条及简介 P
+
+## 2018-5-15
+
+（Elisa Jiang）增加词条 Account、External Actor、Autonomous Object、Message、Message Call、Storage State、Transaction、Contract、EVM、Gas、Gas Limit、Gas Price
