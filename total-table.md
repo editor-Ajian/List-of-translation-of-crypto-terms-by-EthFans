@@ -6,12 +6,19 @@
 --------------------------------------------------------------------------------
 
 [Address](#Address)
+
 [ASIC](#ASIC)
+
 [Bitcoin](#Bitcoin)
+
 [Altcoin (Bitcoin Alternative)](#Altcoin)
+
 [Blockchain](#Blockchain)
+
 [Block Reward](#Block_Reward)
+
 [Consensus Algorithm](#Consensus_Algorithm)
+
 ### Cryptocurrency
 ### Decentralized
 ### Decentralized Application (DApp)
