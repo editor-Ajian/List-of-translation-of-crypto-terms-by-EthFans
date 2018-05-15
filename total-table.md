@@ -9,52 +9,51 @@
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Blockchain](#blockchain)
-- [Block Reward](#block_reward)
+- [Block Reward](#block-reward)
 - [Consensus Algorithm](#consensus-algorithm)
+- [Cryptocurrency](#cryptocurrency)
+- [Decentralized](#decentralized)
+- [Decentralized Application (DApp)](#decentralized-application-dapp)
+- [Decentralized Autonomous Organizations (DAO)](#decentralized-autonomous-organizations-dao)
+- [Distributed Ledger Technology (DLT)](#distributed-ledger-technology-dlt)
+- [Double Spend](#double-spend)
+- [Enterprise Ethereum Alliance (EEA)](#enterprise-ethereum-alliance-eea)
+- [Ethereum](#ethereum)
+- [Ethereum Improvement Proposal (EIP)](#ethereum-improvement-proposal-eip)
+- [Fiat Currency](#fiat-currency)
+- [Fork](#fork)
+- [Genesis Block](#genesis-block)
+- [Hash Function](#hash-function)
+- [Hard Fork](#hard-fork)
+- [Initial Coin Offering (ICO)](#initial-coin-offering-ico)
+- [Key Pair](#key-pair)
+- [Know Your Customer (KYC)](#know-your-customer-kyc)
+- [Lightning Network](#lightning-network)
+- [Merkle Tree](#merkle-tree)
+- [Mnemonic Phrase](#mnemonic-phrase)
+- [Miner](#miner)
+- [Mining Pool](#mining-pool)
+- [Moon / Mooning](#moon--mooning)
+- [Multi Signature (MultiSig)](#multi-signature-multisig)
+- [Nonce](#nonce)
+- [Oracle](#oracle)
+- [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
+- [Private Chain](#private-chain)
+- [Proof of Stake (PoS)](#proof-of-stake-pos)
+- [Proof of Work (PoW)](#proof-of-work-pow)
+- [Public Chain](#public-chain)
+- [Raiden Network](#raiden-network)
+- [Security](#security)
+- [Sidechain](#sidechain)
+- [Smart Contract](#smart-contract)
+- [Soft Fork](#soft-fork)
+- [State Channel](#state-channel)
+- [Turing Complete](#turing-complete)
+- [Wallet](#wallet)
+- [Zero Knowledge Proof](#zero-knowledge-proof)
+- [51% Attack](#51-attack)
 
-### Cryptocurrency
-### Decentralized
-### Decentralized Application (DApp)
-### Decentralized Autonomous Organizations (DAO)
-### Distributed Ledger Technology (DLT)
-### Double Spend
-### Enterprise Ethereum Alliance (EEA)
-### Ethereum
-### Ethereum Improvement Proposal (EIP)
-### Fiat Currency
-### Fork
-### Genesis Block
-### Hash Function
-### Hard Fork
-### Initial Coin Offering (ICO)
-### Key Pair
-### Know Your Customer (KYC)
-### Lightning Network
-### Merkle Tree
-### Mnemonic Phrase
-### Miner
-### Mining Pool
-### Moon / Mooning
-### Multi Signature (MultiSig)
-### Nonce
-### Oracle
-### Peer-to-Peer (P2P)
-### Private Chain
-### Proof of Stake
-### Proof of Work (PoW)
-### Public Chain
-### Raiden Network
-### Security
-### Sidechain
-### Smart Contract
-### Soft Fork
-### State Channel
-### Turing Complete
-### Wallet
-### Zero Knowledge Proof
-### 51% Attack
-
---------------------------------------------------------------------------------
+## 术语表详情
 
 ### Address
 
@@ -130,9 +129,9 @@
 
 参看 [Block Height](#block-height)
 
-参看 [Proof of Work](#proof-of-work)
+参看 [Proof of Work (Pow)](#proof-of-work-pow)
 
-参看 [Proof of Stake](#proof-of-stake)
+参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
 
 参看 [Security](#security)
 
@@ -142,11 +141,15 @@
 
 加密货币
 
+[回到索引](#全术语索引)
+
 ### Decentralized
 
 去中心化
 
 交易系统的一种属性，即系统功能的正常执行不依赖于特定中心的存在。（阿剑）
+
+[回到索引](#全术语索引)
 
 ### Decentralized Application (DApp)
 
@@ -154,11 +157,15 @@
 
 即由运行在区块链上的智能合约组成的、在使用体验上近似于应用程序的软件。在正文中鼓励写成 “dApp”。（阿剑）
 
-参看 Smart Contract
+参看 [Smart Contract](#smart-contract)
+
+[回到索引](#全术语索引)
 
 ### Decentralized Autonomous Organizations (DAO)
 
 去中心化自治组织
+
+[回到索引](#全术语索引)
 
 ### Distributed Ledger Technology (DLT)
 
@@ -166,21 +173,27 @@
 
 用于建构具备特定属性的账本（交易记录）的技术，此种账本并不由特定中心来保存，其可信性也不依赖于特定中心。（阿剑）
 
+[回到索引](#全术语索引)
+
 ### Double Spend
 
 双花
 
 即同一笔钱可以花两次乃至以上。实际上即等同于伪造货币。如不能解决这个问题，则记账单位本身是不可信的，以此建构的账本也将失去意义。（阿剑）
 
-参看 Security
+参看 [Security](#security)
 
-参看 Blockchain
+参看 [Blockchain](#blockchain)
+
+[回到索引](#全术语索引)
 
 ### Enterprise Ethereum Alliance (EEA)
 
 企业以太坊联盟
 
-参看 Ethereum
+参看 [Ethereum](#ethereum)
+
+[回到索引](#全术语索引)
 
 ### Ethereum
 
@@ -188,9 +201,11 @@
 
 第一个允许实现智能合约的区块链系统。诞生于2013年。（阿剑）
 
-参看 Blockchain
+参看 [Blockchain](#blockchain)
 
-参看 Smart Contract
+参看 [Smart Contract](#smart-contract)
+
+[回到索引](#全术语索引)
 
 ### Ethereum Improvement Proposal (EIP)
 
@@ -200,7 +215,9 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 以太坊改进提议即由以太坊社区成员无需许可而发起的建议；相关建议在获得整个社区形式上的同意之后会部署到以太坊主网上。（阿剑）
 
-参看 Ethereum
+参看 [Ethereum](#ethereum)
+
+[回到索引](#全术语索引)
 
 ### Fiat Currency
 
@@ -208,9 +225,13 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 即货币发行者不承诺会承兑为某种实物商品的货币；第二次世界大战后，各国具有垄断货币发行权的机构往往发行此种货币，且如此发行的货币具有法定偿付效力，故常常译为“法币”。（阿剑）
 
+[回到索引](#全术语索引)
+
 ### Fork
 
 分叉
+
+[回到索引](#全术语索引)
 
 ### Genesis Block
 
@@ -218,7 +239,9 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 创世区块指区块链上的第一个区块，用来初始化相应的加密货币。（HiBlock）
 
-参看 Cryptocurrency
+参看 [Cryptocurrency](#cryptocurrency)
+
+[回到索引](#全术语索引)
 
 ### Hash Function
 
@@ -234,13 +257,19 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 >
 > ` sh1(ethfans) ` =  ` 37a127fc6ee44155ce50ed31d817d7a5963a10ba ` 
 
+[回到索引](#全术语索引)
+
 ### Hard Fork
 
 硬分叉
 
+[回到索引](#全术语索引)
+
 ### Initial Coin Offering (ICO)
 
 初始代币发行
+
+[回到索引](#全术语索引)
 
 ### Key Pair
 
@@ -248,15 +277,21 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 常见于加密货币的钱包。非对称密码学术语，由公钥（Public Key）和私钥（Private Key）两部分组成。私钥的本质就是个非常大的随机数，而公钥是由私钥计算而来。（HuangFJ）
 
+[回到索引](#全术语索引)
+
 ### Know Your Customer (KYC)
 
 了解你的账户
 
 充分了解你的账户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）
 
+[回到索引](#全术语索引)
+
 ### Lightning Network
 
 闪电网络
+
+[回到索引](#全术语索引)
 
 ### Merkle Tree
 
@@ -276,17 +311,21 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 >
 > 若两棵默克尔树的根哈希相同，则两棵树的结构、基础数据都必然相同。
 
-参看 Hash Function
+参看 [Hash Function](#hash-function)
 
 参看 Simplified Payment Velidation Node
 
 参看 Light Node
+
+[回到索引](#全术语索引)
 
 ### Mnemonic Phrase
 
 助记词
 
 助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。（HuangFJ）
+
+[回到索引](#全术语索引)
 
 ### Miner
 
@@ -296,9 +335,13 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 参看 Block Reward
 
+[回到索引](#全术语索引)
+
 ### Mining Pool
 
 矿池
+
+[回到索引](#全术语索引)
 
 ### Moon / Mooning
 
@@ -306,9 +349,13 @@ Moon / Mooning
 
 指加密货币的价格高达天文数量级别。用于阐述对资产的过去或未来充满积极心态的流行词汇。（HuangFJ）
 
+[回到索引](#全术语索引)
+
 ### Multi Signature (MultiSig)
 
 多重签名
+
+[回到索引](#全术语索引)
 
 ### Nonce
 
@@ -316,9 +363,11 @@ Nonce
 
 本意为只使用一次的随机数。但在工作量证明中，要在区块链上产生一个新的合法区块，必须找到一个 Nonce，对 Nonce 加入初始数据包之后形成的数据块进行哈希计算，所得哈希值会符合某种形式上的要求（如开头有 3 个数字 0）。可以说，Nonce 的设置才真正使得哈希方程成为工作量证明。（阿剑）
 
-参看 Hash Function
+参看 [Hash Function](#hash-function)
 
-参看 Miner
+参看 [Miner](#miner)
+
+[回到索引](#全术语索引)
 
 ### Oracle
 
@@ -326,13 +375,17 @@ Nonce
 
 一类为区块链上的智能合约提供链外信息（数据）的服务组件；预言机并非链外数据源本身，而是从数据源传输数据供智能合约使用的服务。理论上讲，预言机的解决方案不止一种。（阿剑）
 
-参看 Blockchain
+参看 [Blockchain](#blockchain)
 
-参看 Smart Contract
+参看 [Smart Contract](#smart-contract)
+
+[回到索引](#全术语索引)
 
 ### Peer-to-Peer (P2P)
 
 点对点
+
+[回到索引](#全术语索引)
 
 ### Private Chain
 
@@ -340,15 +393,19 @@ Nonce
 
 特定主体建立并为参与者设置准入门槛的区块链系统；换言之，只有获得特定主体许可的参与者才能保存账本以及发起交易。（阿剑）
 
-参看 Public Chain
+参看 [Public Chain](#public-chain)
 
-### Proof of Stake
+[回到索引](#全术语索引)
+
+### Proof of Stake (PoS)
 
 权益证明
 
 一种共识算法。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押的原生货币数量占全部抵押货币的比例。
 
-参看 Consensus Algorithm
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+[回到索引](#全术语索引)
 
 ### Proof of Work (PoW)
 
@@ -356,13 +413,15 @@ Nonce
 
 一种共识算法。工作量证明要求区块链上的任一合法区块必须具有一个数据片，该数据片加入原始数据后，对整个数据块进行哈希运算所得结果能符合特定要求。在工作量证明系统中，要成为出块者（产生合法的区块），只能也只需要进行重复的哈希计算（以找到符合要求的数据片）。（阿剑）
 
-参看 Consensus Algorithm
+参看 [Consensus Algorithm](#consensus-algorithm)
 
-参看 Hash Function
+参看 [Hash Function](#hash-function)
 
-参看 Nonce
+参看 [Nonce](#nonce)
 
-参看 Miner
+参看 [Miner](#miner)
+
+[回到索引](#全术语索引)
 
 ### Public Chain
 
@@ -370,11 +429,15 @@ Nonce
 
 不对参与者设置准入门槛的区块链系统；换言之，任何人都可以保存分布式账本的副本以及发起交易。（阿剑）
 
-参看 Private Chain
+参看 [Private Chain](#private-chain)
+
+[回到索引](#全术语索引)
 
 ### Raiden Network
 
 雷电网络
+
+[回到索引](#全术语索引)
 
 ### Security
 
@@ -384,17 +447,21 @@ Nonce
 
 （2）指区块链系统上的智能合约的安全性，即代码逻辑是否允许一个人任意盗走资产或造成意料之外的资产损失。（阿剑）
 
-参看 Blockchain
+参看 [Blockchain](#blockchain)
 
-参看 Distributed Ledger Technology
+参看 [Distributed Ledger Technology (DLT)](#distributed-ledger-technology-dlt)
 
-参看 Double Spend
+参看 [Double Spend](#double-spend)
 
-参看 Smart Contract
+参看 [Smart Contract](#smart-contract)
+
+[回到索引](#全术语索引)
 
 ### Sidechain
 
 侧链
+
+[回到索引](#全术语索引)
 
 ### Smart Contract
 
@@ -404,17 +471,25 @@ Nonce
 
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
+[回到索引](#全术语索引)
+
 ### Soft Fork
 
 软分叉
+
+[回到索引](#全术语索引)
 
 ### State Channel
 
 状态通道
 
+[回到索引](#全术语索引)
+
 ### Turing Complete
 
 图灵完备
+
+[回到索引](#全术语索引)
 
 ### Wallet
 
@@ -422,14 +497,19 @@ Nonce
 
 存储私钥的地方，一般指的是可以查看账户余额和交易记录，转账，对私钥加密和备份的安全工具集。（HuangFJ）
 
+[回到索引](#全术语索引)
+
 ### Zero Knowledge Proof
 
 零知识证明
+
+[回到索引](#全术语索引)
 
 ### 51% Attack
 
 51% 攻击
 
+[回到索引](#全术语索引)
 
 ## 通告
 
