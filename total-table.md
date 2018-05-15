@@ -18,9 +18,9 @@
 
 第一个实现的公有区块链系统。诞生于2009年。（阿剑）
 
-参看 Blockchain
+参看 #Blockchain
 
-参看 Public Chain
+参看 #Public Chain
 
 ### Bitcoin Alternative (Altcoin)
 
