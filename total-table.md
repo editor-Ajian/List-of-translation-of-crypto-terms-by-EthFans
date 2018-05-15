@@ -2,14 +2,28 @@
 
 贡献者请通过[通告](#通告)其他贡献者提供的更新，阅读者可在全术语索引中点击具体术语名称，或使用 “Ctrl + F” 搜索词条。
 
+## 术语首字母索引
+
+- [A](#a)
+- [B](#b)
+- [C](#c)
+
 ## 全术语索引
+
+### A
 
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+
+### B
+
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Blockchain](#blockchain)
 - [Block Reward](#block-reward)
+
+### C
+
 - [Consensus Algorithm](#consensus-algorithm)
 - [Cryptocurrency](#cryptocurrency)
 - [Decentralized](#decentralized)
@@ -61,13 +75,13 @@
 
 特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。（HuangFJ）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Application Specific Integrated Circuit (ASIC)
 
 为专门目的而设计的集成电路；
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Bitcoin
 
@@ -79,7 +93,7 @@
 
 参看 [Public Chain](#public-chain)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Bitcoin Alternative (Altcoin)
 
@@ -89,7 +103,7 @@
 
 参看 [Bitcoin](#bitcoin)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Blockchain
 
@@ -107,7 +121,7 @@
 
 参看 [Private Chain](#private-chain)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Block Reward
 
@@ -119,7 +133,7 @@
 
 参看 [Security](#security)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Consensus Algorithm
 
@@ -135,13 +149,13 @@
 
 参看 [Security](#security)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Cryptocurrency
 
 加密货币
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Decentralized
 
@@ -149,7 +163,7 @@
 
 交易系统的一种属性，即系统功能的正常执行不依赖于特定中心的存在。（阿剑）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Decentralized Application (DApp)
 
@@ -159,13 +173,13 @@
 
 参看 [Smart Contract](#smart-contract)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Decentralized Autonomous Organizations (DAO)
 
 去中心化自治组织
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Distributed Ledger Technology (DLT)
 
@@ -173,7 +187,7 @@
 
 用于建构具备特定属性的账本（交易记录）的技术，此种账本并不由特定中心来保存，其可信性也不依赖于特定中心。（阿剑）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Double Spend
 
@@ -185,7 +199,7 @@
 
 参看 [Blockchain](#blockchain)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Enterprise Ethereum Alliance (EEA)
 
@@ -193,7 +207,7 @@
 
 参看 [Ethereum](#ethereum)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Ethereum
 
@@ -205,7 +219,7 @@
 
 参看 [Smart Contract](#smart-contract)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Ethereum Improvement Proposal (EIP)
 
@@ -217,7 +231,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 参看 [Ethereum](#ethereum)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Fiat Currency
 
@@ -225,13 +239,13 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 即货币发行者不承诺会承兑为某种实物商品的货币；第二次世界大战后，各国具有垄断货币发行权的机构往往发行此种货币，且如此发行的货币具有法定偿付效力，故常常译为“法币”。（阿剑）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Fork
 
 分叉
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Genesis Block
 
@@ -241,7 +255,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 参看 [Cryptocurrency](#cryptocurrency)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Hash Function
 
@@ -257,19 +271,19 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 >
 > ` sh1(ethfans) ` =  ` 37a127fc6ee44155ce50ed31d817d7a5963a10ba ` 
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Hard Fork
 
 硬分叉
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Initial Coin Offering (ICO)
 
 初始代币发行
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Key Pair
 
@@ -277,7 +291,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 常见于加密货币的钱包。非对称密码学术语，由公钥（Public Key）和私钥（Private Key）两部分组成。私钥的本质就是个非常大的随机数，而公钥是由私钥计算而来。（HuangFJ）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Know Your Customer (KYC)
 
@@ -285,13 +299,13 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 充分了解你的账户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（HiBlock）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Lightning Network
 
 闪电网络
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Merkle Tree
 
@@ -317,7 +331,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 参看 Light Node
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Mnemonic Phrase
 
@@ -325,7 +339,7 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 助记词等同于私钥。私钥是一个很长的随机字符串，没有可读性，所以引入了某种算法（如BIP39）可将私钥转换为十几个常见的英文单词，便于记忆和抄写保管。（HuangFJ）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Miner
 
@@ -335,13 +349,13 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 参看 Block Reward
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Mining Pool
 
 矿池
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Moon / Mooning
 
@@ -349,13 +363,13 @@ Moon / Mooning
 
 指加密货币的价格高达天文数量级别。用于阐述对资产的过去或未来充满积极心态的流行词汇。（HuangFJ）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Multi Signature (MultiSig)
 
 多重签名
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Nonce
 
@@ -367,7 +381,7 @@ Nonce
 
 参看 [Miner](#miner)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Oracle
 
@@ -379,13 +393,13 @@ Nonce
 
 参看 [Smart Contract](#smart-contract)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Peer-to-Peer (P2P)
 
 点对点
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Private Chain
 
@@ -395,7 +409,7 @@ Nonce
 
 参看 [Public Chain](#public-chain)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Proof of Stake (PoS)
 
@@ -405,7 +419,7 @@ Nonce
 
 参看 [Consensus Algorithm](#consensus-algorithm)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Proof of Work (PoW)
 
@@ -421,7 +435,7 @@ Nonce
 
 参看 [Miner](#miner)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Public Chain
 
@@ -431,13 +445,13 @@ Nonce
 
 参看 [Private Chain](#private-chain)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Raiden Network
 
 雷电网络
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Security
 
@@ -455,13 +469,13 @@ Nonce
 
 参看 [Smart Contract](#smart-contract)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Sidechain
 
 侧链
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Smart Contract
 
@@ -471,25 +485,25 @@ Nonce
 
 参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Soft Fork
 
 软分叉
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### State Channel
 
 状态通道
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Turing Complete
 
 图灵完备
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Wallet
 
@@ -497,19 +511,19 @@ Nonce
 
 存储私钥的地方，一般指的是可以查看账户余额和交易记录，转账，对私钥加密和备份的安全工具集。（HuangFJ）
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### Zero Knowledge Proof
 
 零知识证明
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ### 51% Attack
 
 51% 攻击
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 ## 通告
 
@@ -527,6 +541,6 @@ Nonce
 
 （阿剑）请求删除 Moon / Mooning 词条。
 
-[回到索引](#全术语索引)
+[回到索引](#术语首字母索引)
 
 
