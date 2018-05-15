@@ -47,6 +47,7 @@
 ### C
 
 - [Consensus Algorithm](#consensus-algorithm)
+- [Contract](#contract)
 - [Cryptocurrency](#cryptocurrency)
 - [回到索引](#术语首字母索引)
 
@@ -64,6 +65,7 @@
 - [Enterprise Ethereum Alliance (EEA)](#enterprise-ethereum-alliance-eea)
 - [Ethereum](#ethereum)
 - [Ethereum Improvement Proposal (EIP)](#ethereum-improvement-proposal-eip)
+- [EVM (Ethereum Virtual Machine)](#evm)
 - [External Actor](#external-actor)
 - [回到索引](#术语首字母索引)
 
@@ -75,6 +77,9 @@
 
 ### G
 
+- [Gas](#gas)
+- [Gas Limit](#gas-limit)
+- [Gas Price](#gas-price)
 - [Genesis Block](#genesis-block)
 - [回到索引](#术语首字母索引)
 
@@ -278,6 +283,17 @@
 
 [回到索引](#术语首字母索引)
 
+### Contract
+
+合约
+
+一个非正式术语，表示与某个账户关联的一份EVM代码或是一个自主对象。
+
+参看 [Autonomous Object](#autonomous-object)
+参看 [EVM](#evm)
+
+[回到索引](#术语首字母索引)
+
 ### Cryptocurrency
 
 加密货币
@@ -362,6 +378,14 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 [回到索引](#术语首字母索引)
 
+### EVM (Ethereum Virtual Machine)
+
+以太坊虚拟机
+
+建立在以太坊区块链上的代码运行环境，构成了帐户关联的EVM代码的执行模型的关键部分。 （Elisa Jiang）
+
+[回到索引](#术语首字母索引)
+
 ### External Actor
 
 外部操作者
@@ -381,6 +405,31 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 ### Fork
 
 分叉
+
+[回到索引](#术语首字母索引)
+
+
+### Gas
+
+Gas
+
+以太坊基础网络运算费用单位，用以太币计价。 （Elisa Jiang）
+
+[回到索引](#术语首字母索引)
+
+### Gas Limit
+
+Gas上限
+
+一次交易中执行的运算步数上限。每次交易的总交易成本为 Gas Limit * Gas Price。 （Elisa Jiang）
+
+[回到索引](#术语首字母索引)
+
+### Gas Price
+
+Gas价格
+
+交易发起者愿意为每次运算（即每个Gas）支付的以太币价格，通常以 GWei 为单位计价。 （Elisa Jiang）
 
 [回到索引](#术语首字母索引)
 
