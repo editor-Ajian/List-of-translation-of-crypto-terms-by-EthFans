@@ -15,3 +15,7 @@
 （阿剑）增加简介 Fiat Currency、Oracle、Decentralized Application (DApp)。
 
 （阿剑）请求删除 Moon / Mooning 词条。
+
+## 2018-5-14
+
+(Damon Lin)增加词条及简介 P

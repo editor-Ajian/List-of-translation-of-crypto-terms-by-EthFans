@@ -1,6 +1,6 @@
 请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
 
-贡献者请点击[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
+贡献者请点击[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md)跳到通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
 
 ### Address
 
@@ -268,6 +268,14 @@ Nonce
 ### Peer-to-Peer (P2P)
 
 点对点
+
+### Practical Byzantine Fault Tolerance (PBFT)
+
+实用拜占庭容错算法
+
+PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭容错算法。该算法是 Miguel Castro (卡斯特罗)和 Barbara Liskov（利斯科夫）在1999年提出来的，解决了原始拜占庭容错算法效率不高的问题，将算法复杂度由指数级降低到多项式级，使得拜占庭容错算法在实际系统应用中变得可行。（Damon Lin）
+
+参看 Consensus Algorithm
 
 ### Private Chain
 
