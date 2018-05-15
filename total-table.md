@@ -1,6 +1,60 @@
 请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
 
-贡献者请点击[这里](#tonggao)跳到文末通知区查看其他贡献者提供的更新，阅读者可使用 “Ctrl + F” 使用浏览器的搜索功能搜索词条。
+贡献者请通过[通告](#通告)其他贡献者提供的更新，阅读者可在全术语索引中点击具体术语名称，或使用 “Ctrl + F” 搜索词条。
+
+## 全术语索引
+--------------------------------------------------------------------------------
+
+[Address](#Address)
+[ASIC](#ASIC)
+[Bitcoin](#Bitcoin)
+[Altcoin (Bitcoin Alternative)](#Altcoin)
+[Blockchain](#Blockchain)
+[Block Reward](#Block_Reward)
+[Consensus Algorithm](#Consensus_Algorithm)
+### Cryptocurrency
+### Decentralized
+### Decentralized Application (DApp)
+### Decentralized Autonomous Organizations (DAO)
+### Distributed Ledger Technology (DLT)
+### Double Spend
+### Enterprise Ethereum Alliance (EEA)
+### Ethereum
+### Ethereum Improvement Proposal (EIP)
+### Fiat Currency
+### Fork
+### Genesis Block
+### Hash Function
+### Hard Fork
+### Initial Coin Offering (ICO)
+### Key Pair
+### Know Your Customer (KYC)
+### Lightning Network
+### Merkle Tree
+### Mnemonic Phrase
+### Miner
+### Mining Pool
+### Moon / Mooning
+### Multi Signature (MultiSig)
+### Nonce
+### Oracle
+### Peer-to-Peer (P2P)
+### Private Chain
+### Proof of Stake
+### Proof of Work (PoW)
+### Public Chain
+### Raiden Network
+### Security
+### Sidechain
+### Smart Contract
+### Soft Fork
+### State Channel
+### Turing Complete
+### Wallet
+### Zero Knowledge Proof
+### 51% Attack
+
+--------------------------------------------------------------------------------
 
 ### Address
 
@@ -8,9 +62,11 @@
 
 特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。（HuangFJ）
 
-### Application Specific Integrated Circuit (ASIC)
+[回到索引](#全术语索引)
 
-专用集成电路；
+### ASIC
+
+即 Application Specific Integrated Circuit，指为专门目的而设计的集成电路；
 
 ### Bitcoin
 
@@ -18,17 +74,17 @@
 
 第一个实现的公有区块链系统。诞生于2009年。（阿剑）
 
-参看 #Blockchain
+参看 [Blockchain](#Blockchain)
 
-参看 #Public Chain
+参看 [Public Chain](#Public_Chain)
 
-### Bitcoin Alternative (Altcoin)
+### Altcoin
 
-替代币
+即 Bitcoin Alternative，替代币
 
 指除了比特币以外的其他加密货币。（HuangFJ）
 
-参看 Bitcoin
+参看 [Bitcoin](#Bitcoin)
 
 ### Blockchain
 
@@ -363,7 +419,8 @@ Nonce
 
 51% 攻击
 
-<h2 id="tonggao">通告</h2>
+
+## 通告
 
 #### 2018-5-11
 
