@@ -5,17 +5,12 @@
 ## 全术语索引
 
 - [Address](#address)
-- [ASIC](#ASIC)
-
-[Bitcoin](#Bitcoin)
-
-[Altcoin (Bitcoin Alternative)](#Altcoin)
-
-[Blockchain](#Blockchain)
-
-[Block Reward](#Block_Reward)
-
-[Consensus Algorithm](#Consensus_Algorithm)
+- [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+- [Bitcoin](#bitcoin)
+- [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
+- [Blockchain](#blockchain)
+- [Block Reward](#block_reward)
+- [Consensus Algorithm](#consensus-algorithm)
 
 ### Cryptocurrency
 ### Decentralized
@@ -73,23 +68,29 @@
 
 为专门目的而设计的集成电路；
 
+[回到索引](#全术语索引)
+
 ### Bitcoin
 
 比特币
 
 第一个实现的公有区块链系统。诞生于2009年。（阿剑）
 
-参看 [Blockchain](#Blockchain)
+参看 [Blockchain](#blockchain)
 
-参看 [Public Chain](#Public_Chain)
+参看 [Public Chain](#public-chain)
 
-### Altcoin
+[回到索引](#全术语索引)
 
-即 Bitcoin Alternative，替代币
+### Bitcoin Alternative (Altcoin)
+
+替代币
 
 指除了比特币以外的其他加密货币。（HuangFJ）
 
-参看 [Bitcoin](#Bitcoin)
+参看 [Bitcoin](#bitcoin)
+
+[回到索引](#全术语索引)
 
 ### Blockchain
 
@@ -97,15 +98,17 @@
 
 一些通过某种方程而联系起来、具有前后顺序的数据块；后一个数据块中会保留前一个区块被该方程处理之后的数据结果。当前已实现的区块链系统使用的方程为 Hash Function（哈希方程）。由于此种技术常常被用来建构无需中心来强制执行的交易系统（数据块记录的是交易），它也被称为“分布式账本技术”。（阿剑）
 
-参看 Decentralized
+参看 [Decentralized](#decentralized)
 
-参看 Distributed Ledger Technology (DLT)
+参看 [Distributed Ledger Technology (DLT)](#distributed-ledger-technology-dlt)
 
-参看 Hash Function
+参看 [Hash Function](#hash-function)
 
-参看 Public Chain
+参看 [Public Chain](#public-chain)
 
-参看 Private Chain
+参看 [Private Chain](#private-chain)
+
+[回到索引](#全术语索引)
 
 ### Block Reward
 
@@ -113,9 +116,11 @@
 
 在区块链中，为鼓励大家参与产生新区块的过程并为整个系统提供安全性，区块链系统本身会为创造新区块的成员发放一定的原生加密货币奖励。这部分奖励就叫区块奖励。（阿剑）
 
-参看 Blockchain
+参看 [Blockchain](#blockchain)
 
-参看 Security
+参看 [Security](#security)
+
+[回到索引](#全术语索引)
 
 ### Consensus Algorithm
 
@@ -123,18 +128,19 @@
 
 特定的规则，规定在区块链上合法的区块如何产生，并对同一高度相互冲突的区块进行选择。使用这些规则的目的是让参与者在一个没有可信特定参与者的系统中形成共识，故称“共识算法”。当前常见的共识算法有 Proof of Work 和 Proof of Stake。（阿剑）
 
-参看 Block Height
+参看 [Block Height](#block-height)
 
-参看 Proof of Work
+参看 [Proof of Work](#proof-of-work)
 
-参看 Proof of Stake
+参看 [Proof of Stake](#proof-of-stake)
 
-参看 Security
+参看 [Security](#security)
+
+[回到索引](#全术语索引)
 
 ### Cryptocurrency
 
 加密货币
-
 
 ### Decentralized
 
@@ -441,5 +447,6 @@ Nonce
 
 （阿剑）请求删除 Moon / Mooning 词条。
 
+[回到索引](#全术语索引)
 
 
