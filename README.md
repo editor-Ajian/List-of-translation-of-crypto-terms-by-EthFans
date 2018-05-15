@@ -9,6 +9,7 @@
 ## 一. 协作工具与工作流程
 
 - 我们将使用 GitHub 的功能和思维来实现分布式的协作。
+- 当前的 repo 有三个文档，除本文档外，Block and Ethereum Terminology.md 文件即为术语表，Notification.md 文件是通知区，用于贡献者们交流进度。
 - EthFans 将与社区贡献者共同充实本表的内容。
 - 我们将采用 Fork-Pull Request 的模式来协作；同时，本 repo 的 master 分支已被保护起来，请各位贡献者对 under-finalized 分支提交修改；EthFans 会依据流程将贡献者提交的修改经由 under-finalized 分支合并到 master 分支。
 - 由于 EthFans 将获得更大的掌控权，此种协作也就要求贡献者愿意相信 EthFans。EthFans 也欢迎各位贡献者提出改进协作方式的方案并监督 EthFans。
