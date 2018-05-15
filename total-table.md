@@ -5,9 +5,8 @@
 ## 全术语索引
 --------------------------------------------------------------------------------
 
-[Address](#Address)
-
-[ASIC](#ASIC)
+- [Address](#Address)
+- [ASIC](#ASIC)
 
 [Bitcoin](#Bitcoin)
 
