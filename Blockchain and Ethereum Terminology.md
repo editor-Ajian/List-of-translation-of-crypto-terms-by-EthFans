@@ -33,6 +33,7 @@
 - [Account](#account)
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+- [Autonomous Object](#autonomous-object)
 - [回到索引](#术语首字母索引)
 
 ### B
@@ -102,6 +103,8 @@
 ### M
 
 - [Merkle Tree](#merkle-tree)
+- [Message](#message)
+- [Message Call](#message-call)
 - [Mnemonic Phrase](#mnemonic-phrase)
 - [Miner](#miner)
 - [Mining Pool](#mining-pool)
@@ -141,10 +144,12 @@
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
 - [State Channel](#state-channel)
+- [Storage State](#storage-state)
 - [回到索引](#术语首字母索引)
 
 ### T
 
+- [Transaction](#transaction)
 - [Turing Complete](#turing-complete)
 - [回到索引](#术语首字母索引)
 
@@ -169,9 +174,11 @@
 
 账户
 
-每个账户都有一个内在的余额和交易计数器，作为以太坊状态的一部分。账户中还含有一些（可能是留空的）以太坊虚拟机代码和一个与其关联的（可能是留空的）存储状态。账户实际上有两种类型，虽然两者非常相似，但也需区分：一类账户中的关联EVM代码是留空的（因此该类账户余额由外部操作者控制）；另一类账户中的关联EVM代码不为空（因此该类账户代表一个独立对象）。每个账户都有唯一与之对应的地址。——《以太坊黄皮书》（Elisa Jiang）
+每个账户都有一个内在的余额和交易计数器，作为以太坊状态的一部分。账户中还含有一些以太坊虚拟机代码（可能为空）和一个与其关联的存储状态（可能为空）。账户实际上有两种类型，虽然两者非常相似，但也需区分：一类账户中的关联EVM代码是留空的（因此该类账户余额由外部操作者控制）；另一类账户中的关联EVM代码不为空（因此该类账户代表一个自主对象）。每个账户都有唯一与之对应的地址。——《以太坊黄皮书》（Elisa Jiang）
 
 参看 [Address](#address)
+
+参看 [Autonomous Object](#autonomous-object)
 
 [回到索引](#术语首字母索引)
 
@@ -183,11 +190,23 @@
 
 用于账户识别的160字节代码。——《以太坊黄皮书》 （Elisa Jiang）
 
+参看 [Address](#address)
+
 [回到索引](#术语首字母索引)
 
 ### Application Specific Integrated Circuit (ASIC)
 
 为专门目的而设计的集成电路；
+
+[回到索引](#术语首字母索引)
+
+### Autonomous Object
+
+自主对象
+
+只存在于假想的以太坊状态之中的概念性对象。每个对象都有一个内部地址与一个关联账户，且该账户的EVM代码不为空。——《以太坊黄皮书》 （Elisa Jiang）
+
+参看 [Storage State](#storage-state)
 
 [回到索引](#术语首字母索引)
 
@@ -451,6 +470,22 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 [回到索引](#术语首字母索引)
 
+### Message
+
+消息
+
+在两个账户直接传递的（一系列字节）代码与（用以太币表示的）价值，可以通过自主对象的确定性操作进行传递，也可以通过交易的密码学安全签名来传递。——《以太坊黄皮书》 （Elisa Jiang）
+
+[回到索引](#术语首字母索引)
+
+### Message Call
+
+消息调用
+
+将消息从一个账号传递到另一个账户的行为。 （Elisa Jiang）
+
+[回到索引](#术语首字母索引)
+
 ### Mnemonic Phrase
 
 助记词
@@ -624,6 +659,20 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 ### State Channel
 
 状态通道
+
+[回到索引](#术语首字母索引)
+
+### Storage State
+
+存储状态
+
+[回到索引](#术语首字母索引)
+
+### Transaction
+
+交易
+
+由外部操作者签署的一份数据。交易可以代表一条消息或是一个新的独立对象。所有交易都会记录在区块链上的区块中。——《以太坊黄皮书》 （Elisa Jiang）
 
 [回到索引](#术语首字母索引)
 
