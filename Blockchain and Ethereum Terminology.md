@@ -65,7 +65,7 @@
 - [Enterprise Ethereum Alliance (EEA)](#enterprise-ethereum-alliance-eea)
 - [Ethereum](#ethereum)
 - [Ethereum Improvement Proposal (EIP)](#ethereum-improvement-proposal-eip)
-- [EVM (Ethereum Virtual Machine)](#evm)
+- [Ethereum Virtual Machine  (EVM)](#ethereum-virtual-machine-evm)
 - [External Actor](#external-actor)
 - [回到索引](#术语首字母索引)
 
@@ -148,6 +148,7 @@
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
+- [Stable coin](#stable-coin)
 - [State Channel](#state-channel)
 - [Storage State](#storage-state)
 - [回到索引](#术语首字母索引)
@@ -179,7 +180,7 @@
 
 账户
 
-每个账户都有一个内在的余额和交易计数器，作为以太坊状态的一部分。账户中还含有一些以太坊虚拟机代码（可能为空）和一个与其关联的存储状态（可能为空）。账户实际上有两种类型，虽然两者非常相似，但也需区分：一类账户中的关联EVM代码是留空的（因此该类账户余额由外部操作者控制）；另一类账户中的关联EVM代码不为空（因此该类账户代表一个自主对象）。每个账户都有唯一与之对应的地址。——《以太坊黄皮书》（Elisa Jiang）
+每个账户都有一个内在的余额和交易计数器，作为以太坊状态的一部分。账户中还含有一些以太坊虚拟机代码（可能为空）和一个与其关联的存储状态（可能为空）。账户实际上有两种类型，虽然两者非常相似，但也需区分：一类账户中的关联 EVM 代码是留空的（因此该类账户余额由外部操作者控制）；另一类账户中的关联 EVM 代码不为空（因此该类账户代表一个自主对象）。每个账户都有唯一与之对应的地址。——《以太坊黄皮书》（Elisa Jiang）
 
 参看 [Address](#address)
 
@@ -193,7 +194,7 @@
 
 特指加密货币的地址，通过公钥进一步计算而来。地址可以公开告诉他人，他人便可以向该账户转账。（HuangFJ）
 
-用于账户识别的160字节代码。——《以太坊黄皮书》 （Elisa Jiang）
+用于账户识别的 160 字节代码。——《以太坊黄皮书》 （Elisa Jiang）
 
 参看 [Address](#address)
 
@@ -209,7 +210,7 @@
 
 自主对象
 
-只存在于假想的以太坊状态之中的概念性对象。每个对象都有一个内部地址与一个关联账户，且该账户的EVM代码不为空。——《以太坊黄皮书》 （Elisa Jiang）
+只存在于假想的以太坊状态之中的概念性对象。每个对象都有一个内部地址与一个关联账户，且该账户的 EVM 代码不为空。——《以太坊黄皮书》 （Elisa Jiang）
 
 参看 [Storage State](#storage-state)
 
@@ -378,11 +379,11 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 [回到索引](#术语首字母索引)
 
-### EVM (Ethereum Virtual Machine)
+### Ethereum Virtual Machine (EVM )
 
 以太坊虚拟机
 
-建立在以太坊区块链上的代码运行环境，构成了帐户关联的EVM代码的执行模型的关键部分。 （Elisa Jiang）
+建立在以太坊区块链上的代码运行环境，构成了帐户关联的 EVM 代码的执行模型的关键部分。 （Elisa Jiang）
 
 [回到索引](#术语首字母索引)
 
@@ -413,23 +414,47 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 Gas
 
-以太坊基础网络运算费用单位，用以太币计价。 （Elisa Jiang）
+（1）操作以太坊区块链时衡量计算量的单位。即如果完成一个操作需要 50000 个步骤，这么完成该操作就需要操作者花费 50000 个 Gas。例如：
+
+> 从一个账户向另一个账户发送以太币，不论以太币数额多少（且没有在交易中附加额外的数据），要花费掉 21000  Gas
+
+（2）以太坊区块的大小并不是用数据块大小来界定的，而是用一个区块可以使用的 Gas 的额度。一个区块可以承载的所有操作使用的 Gas 总和不能超出这个额度。该额度由矿工投票确定。例如：
+
+> 当前（2018年5月17日），以太坊区块的 Gas 上限大约是 700 万。
+
+（3）从（1）的角度看，可以认为 Gas 是计算以太坊操作运算费用的基本单位；Gas 用以太币来计价；运算费用在相关操作上链之后会交给挖出相应区块的矿工；运算费用（也即交易费用）的计算公式为 Gas Limit * Gas Price。 （Elisa Jiang）
+
+参看 [Gas Limit](#gas-limit)
+
+参看 [Gas Price](#gas-price)
+
+参看 [Smart Contract](#smart-contract)
+
+参看 [Miner](#miner)
+
+参看 [Transaction](#transaction)
 
 [回到索引](#术语首字母索引)
 
 ### Gas Limit
 
-Gas上限
+Gas 上限
 
-一次交易中执行的运算步数上限。每次交易的总交易成本为 Gas Limit * Gas Price。 （Elisa Jiang）
+一次以太坊交易中执行的运算步数上限。 由交易发起者在发起交易时设定。（Elisa Jiang）
+
+参看 [Gas](#gas)
+
+参看 [Transaction](#transaction)
 
 [回到索引](#术语首字母索引)
 
 ### Gas Price
 
-Gas价格
+Gas 价格
 
-交易发起者愿意为每次运算（即每个Gas）支付的以太币价格，通常以 GWei 为单位计价。 （Elisa Jiang）
+交易发起者愿意为每次运算（即每个 Gas）支付的以太币价格，通常以 GWei 为单位计价。 （Elisa Jiang）
+
+参看 [Gas](#gas)
 
 [回到索引](#术语首字母索引)
 
@@ -695,7 +720,9 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 因具备相当的安全性而能自动执行特定类型的交易的东西，例如自动贩卖机。可以理解为有能力执行特定类型交易的机器人。在以太坊上，智能合约即是一个由代码来控制的账户。智能合约的概念由 Nick Szabo（尼克·萨博）在 1997 年提出。（阿剑）
 
-参看 [智能合约的理念](https://ethfans.org/posts/smart-contract-nick-szabo)
+参看 [Autonomous Object](#autonomous-object)
+
+参看 [Account](#account)
 
 [回到索引](#术语首字母索引)
 
@@ -704,6 +731,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 软分叉
 
 [回到索引](#术语首字母索引)
+
+### Stabe coin
+
+稳定币
+
+是指独立于市场波动，具有价格稳定属性的加密数字货币，币价的稳定性通常依靠与稳定的标的资产（如美元）挂钩或依赖抵押物的价值支撑来实现；稳定币的属性使其在中短期可作为货币计量单位，在长期可作为价值贮藏手段 （DM@SUSY Capital）
+
+所谓稳定币是指对某种商品或货币比价稳定的加密货币。当其标的之物的市场价格发生变动时，其自身的市场价格也就随之发生变动。鉴于区块链原生加密货币的市场价格波动很大，稳定币的设计者希望某种加密资产可与现实中的某种资产的价格挂钩从而平抑价格波动，进而拓宽加密货币在现实中的用途。（阿剑）
+
+例如：
+
+> 在当前的实践中，不止一个项目试图创造一种与美元保持 1：1 硬锚定或者软锚定的加密货币。此类稳定币当然可以方便人们的实际使用。但美元的市场价格（使用其它商品表示）变动时，与之锚定的稳定币的市场价格也会变动。
 
 ### State Channel
 
