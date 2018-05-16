@@ -732,7 +732,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
-### Stabe coin
+### Stable coin
 
 稳定币
 
