@@ -109,6 +109,12 @@
 
 参看 Blockchain
 
+### Elliptic Curve Cryptography
+
+椭圆加密曲线
+
+椭圆曲线密码学（英语：Elliptic curve cryptography，缩写为 ECC），一种建立公开密钥加密的算法，基于椭圆曲线数学。比特币和以太坊使用这种算法生成密钥。(Damon Lin)
+
 ### Enterprise Ethereum Alliance (EEA)
 
 企业以太坊联盟
