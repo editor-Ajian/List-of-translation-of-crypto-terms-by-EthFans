@@ -18,7 +18,7 @@
 
 ## 2018-5-14
 
-(Damon Lin)增加词条及简介 Peer-to-peer (P2P)。
+（Damon Lin）增加词条及简介 Peer-to-peer (P2P)。
 
 ## 2018-5-15
 
@@ -26,4 +26,8 @@
 
 ## 2018-5-18
 
-(Damon Lin)增加词条及简介Elliptic Curve Cryptography。
+（Damon Lin）增加词条及简介Elliptic Curve Cryptography。
+
+## 2018-5-25
+
+（阿剑）增加简介 Fork、Hard Fork、Soft Fork
