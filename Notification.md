@@ -30,4 +30,4 @@
 
 ## 2018-5-25
 
-（阿剑）增加简介 Fork、Hard Fork、Soft Fork
+（阿剑）增加词条及简介 Block Height、Fork、Hard Fork、Hashrate、Soft Fork
