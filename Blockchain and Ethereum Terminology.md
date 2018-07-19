@@ -1,6 +1,6 @@
-请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
+[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md) 是专门的通知区；请贡献者务必在通知区里表明自己新增的内容，方便其他贡献者知晓进度并作出反应。
 
-贡献者请点击[这里](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans/blob/under-finalized/Notification.md)跳到通知区查看其他贡献者提供的更新，阅读者可使用索引，或使用 “Ctrl + F” 搜索词条。
+本术语表的阅读者可使用索引，或使用 “Ctrl + F” 搜索词条。
 
 ## 术语首字母索引
 
@@ -47,6 +47,7 @@
 
 ### C
 
+- [Casper](#casper)
 - [Consensus Algorithm](#consensus-algorithm)
 - [Contract](#contract)
 - [Cryptocurrency](#cryptocurrency)
@@ -147,6 +148,7 @@
 
 ### S
 
+- [Scalability](#scalability)
 - [Security](#security)
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
@@ -287,6 +289,16 @@
 
 [回到索引](#术语首字母索引)
 
+### Casper
+
+Casper
+
+由以太坊核心团队开发者 Vitalik Buterin 及 Vlad Zamfir 提出及完善的权益证明实现。主要思路是有条件罚没验证者质押在链上的保证金来为参与者的恶意行为施加负激励，从而压制共识形成过程中的恶意行为，维护区块链的安全。（阿剑）
+
+参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
+
+[回到索引](#术语首字母索引)
+
 ### Consensus Algorithm
 
 共识算法
@@ -341,6 +353,10 @@
 ### Decentralized Autonomous Organizations (DAO)
 
 去中心化自治组织
+
+一种用链上智能合约来管理的组织架构；正如公司乃是一种用基本的财产法律及公司章程来管理财产使用的组织架构，去中心化自治组织乃是用智能合约来管理财产使用的组织架构。组成一个 DAO 的一套合约规定了该 DAO 的参与、退出条件及参与者权限，参与者可依据一套流程，汇集分立的财产用于共同的目标。（阿剑）
+
+参看 [智能合约](#smart-contract)
 
 [回到索引](#术语首字母索引)
 
@@ -691,7 +707,7 @@ Nonce
 
 实用拜占庭容错算法
 
-PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭容错算法。该算法是 Miguel Castro (卡斯特罗)和 Barbara Liskov（利斯科夫）在1999年提出来的，解决了原始拜占庭容错算法效率不高的问题，将算法复杂度由指数级降低到多项式级，使得拜占庭容错算法在实际系统应用中变得可行。（Damon Lin）
+PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭容错算法。该算法是 Miguel Castro (卡斯特罗）和 Barbara Liskov（利斯科夫）在 1999 年提出来的，解决了原始拜占庭容错算法效率不高的问题，将算法复杂度由指数级降低到多项式级，使得拜占庭容错算法在实际系统应用中变得可行。（Damon Lin）
 
 参看 [Consensus Algorithm](#consensus-algorithm)
 
@@ -711,7 +727,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 权益证明
 
-一种共识算法。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押的原生货币数量占全部抵押货币的比例。
+一种共识算法。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押/质押的原生货币数量占全部抵押/质押货币的比例。
 
 参看 [Consensus Algorithm](#consensus-algorithm)
 
@@ -749,7 +765,21 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
-Scaleability
+### Scalability
+
+可扩展性
+
+严谨来说，指的是系统的一种属性：能随投入资源的增加而产生处理能力的提升。在不严谨的情况下指的是区块链系统的处理能力。（阿剑）
+
+例如：
+
+> 基于工作量证明的区块链是缺乏可扩展性的，因为节点数量的上升、投入算力的增加都不能提升这个系统处理交易的能力。
+
+参看 [Proof of Work (PoW)](#proof-of-work-pow)
+
+参看 [Security](#security)
+
+[回到索引](#术语首字母索引)
 
 ### Security
 
@@ -816,6 +846,12 @@ Scaleability
 ### State Channel
 
 状态通道
+
+一种将状态结算转移到链下进行的技术，因可以在链下进行任意次状态更新后再依参与者主观意愿上链结算，这一技术有助于提升区块链的处理能力。如果将区块链系统当成是一个“状态机”，存储了与各账户相关的状态；那么“交易”就相当于“发起更新操作”，而“出块”就相当于“确认一部分更新操作”从而更新整个系统的状态。在区块链系统中，为保证安全性，每一个操作都要（记录到区块里）上链结算；有了状态通道技术后，人们就可以在链下发起任意次更新操作，再将这些操作造成的总状态更新一次性上链结算。（阿剑）
+
+参看 [Blockchain](#blockchain)
+
+参看 [Tranaction](#transaction)
 
 [回到索引](#术语首字母索引)
 
