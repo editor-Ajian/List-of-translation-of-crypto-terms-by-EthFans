@@ -1,6 +1,6 @@
 # 通知区
 
-此处是独立出来的分支区，方便贡献者们在此撰写更新日志和交流工作！
+此处是独立出来的通知区，方便贡献者们在此撰写更新日志和交流工作！
 
 ## 2018-5-11
 
@@ -31,3 +31,9 @@
 ## 2018-5-25
 
 （阿剑）增加词条及简介 Block Height、Fork、Hard Fork、Hashrate、Soft Fork
+
+## 2018-7-19
+
+（阿剑）增加词条及简介Casper、Scalability
+
+（阿剑）增加简介 Decentralized Autonomous Organizations (DAO)、State Channel
