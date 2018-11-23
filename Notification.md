@@ -34,6 +34,6 @@
 
 ## 2018-7-19
 
-（阿剑）增加词条及简介Casper、Scalability
+（阿剑）增加词条及简介 Casper、Scalability
 
 （阿剑）增加简介 Decentralized Autonomous Organizations (DAO)、State Channel
