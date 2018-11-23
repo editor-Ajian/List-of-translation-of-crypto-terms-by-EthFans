@@ -37,3 +37,11 @@
 （阿剑）增加词条及简介 Casper、Scalability
 
 （阿剑）增加简介 Decentralized Autonomous Organizations (DAO)、State Channel
+
+## 2018-11-23
+
+（阿剑）增加简介 Mining Pool、Zero Knowledge Proof、51% Attack、
+
+（阿剑）增加词条及简介 Full Node、Light Node、Mining
+
+（阿剑）修改简介 Miner、Hash Function
