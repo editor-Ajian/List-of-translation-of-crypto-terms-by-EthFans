@@ -762,11 +762,15 @@ Nonce
 
 参看 [Private Chain](#private-chain)
 
+[回到索引](#术语首字母索引)
+
 ### Permissionless blockchain
 
 公有链；公链
 
 参看 [Public Chain](#public-chain)
+
+[回到索引](#术语首字母索引)
 
 ### Practical Byzantine Fault Tolerance (PBFT)
 
