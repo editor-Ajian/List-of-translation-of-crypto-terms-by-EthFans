@@ -764,11 +764,15 @@ Nonce
 
 参看 [Private Chain](#private-chain)
 
+参看 [Public Chain](#public-chain)
+
 [回到索引](#术语首字母索引)
 
 ### Permissionless blockchain
 
 公有链；公链
+
+参看 [Private Chain](#private-chain)
 
 参看 [Public Chain](#public-chain)
 
@@ -791,6 +795,10 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 特定主体建立并为参与者设置准入门槛的区块链系统；换言之，只有获得特定主体许可的参与者才能保存账本以及发起交易。（阿剑）
 
 参看 [Public Chain](#public-chain)
+
+参看 [Permissioned blockchain](#permissioned-blockchain)
+
+参看 [Permissionless blockchain](#permissionless-blockchain)
 
 [回到索引](#术语首字母索引)
 
@@ -827,6 +835,10 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 不对参与者设置准入门槛的区块链系统；换言之，任何人都可以保存分布式账本的副本以及发起交易。（阿剑）
 
 参看 [Private Chain](#private-chain)
+
+参看 [Permissioned blockchain](#permissioned-blockchain)
+
+参看 [Permissionless blockchain](#permissionless-blockchain)
 
 [回到索引](#术语首字母索引)
 
