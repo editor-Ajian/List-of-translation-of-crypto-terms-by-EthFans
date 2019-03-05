@@ -137,6 +137,8 @@
 ### P
 
 - [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
+- [Permissioned blockchain](#permissioned-blockchain)
+- [Permissionless blockchain](#permissionless-blockchain)
 - [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 - [Private Chain](#private-chain)
 - [Proof of Stake (PoS)](#proof-of-stake-pos)
