@@ -45,3 +45,7 @@
 （阿剑）增加词条及简介 Full Node、Light Node、Mining
 
 （阿剑）修改简介 Miner、Hash Function
+
+## 2019-03-05
+
+（0xl2oot）添加词条 Permissioned blockchain、Permissionless blockchain
