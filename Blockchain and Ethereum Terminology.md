@@ -58,6 +58,7 @@
 - [Decentralized](#decentralized)
 - [Decentralized Application (DApp)](#decentralized-application-dapp)
 - [Decentralized Autonomous Organizations (DAO)](#decentralized-autonomous-organizations-dao)
+- [Delegate Proof of Stake (DPoS)](#delegate-proof-of-stake-dpos)
 - [Distributed Ledger Technology (DLT)](#distributed-ledger-technology-dlt)
 - [Double Spend](#double-spend)
 - [回到索引](#术语首字母索引)
@@ -107,6 +108,8 @@
 
 ### L
 
+- [Layer-1](#layer-1)
+- [Layer-2](#layer-2)
 - [Light Node](#light-node)
 - [Lightning Network](#lightning-network)
 - [回到索引](#术语首字母索引)
@@ -139,6 +142,7 @@
 - [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
 - [Permissioned blockchain](#permissioned-blockchain)
 - [Permissionless blockchain](#permissionless-blockchain)
+- [Plasma](#plasma)
 - [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 - [Private Chain](#private-chain)
 - [Proof of Stake (PoS)](#proof-of-stake-pos)
@@ -155,6 +159,7 @@
 
 - [Scalability](#scalability)
 - [Security](#security)
+- [Sharding](#sharding)
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
@@ -333,7 +338,7 @@ Casper
 
 ### Cryptocurrency
 
-加密货币
+加密货币；密码学货币
 
 [回到索引](#术语首字母索引)
 
@@ -364,6 +369,14 @@ Casper
 参看 [智能合约](#smart-contract)
 
 [回到索引](#术语首字母索引)
+
+### Delegate Proof of Stake (DPoS)
+
+委托权益证明
+
+一种共识算法。特点是先由持币者将与代币量正相关的投票权重委托给节点，获得最多投票权的 m 个节点中前 n 个节点轮流出块并投票达成共识（m 和 n 都是预先给定的），节点所得的区块奖励同样与投票权重正相关。核心用意在于提高系统的吞吐量，因为当共识过程只需在 n 个确定的节点间进行，共识就可以很快达成。往往配备有复杂的委托-投票程序。（阿剑）
+
+参看 [Consensus Algorithm](#consensus-algorithm)
 
 ### Distributed Ledger Technology (DLT)
 
@@ -405,7 +418,7 @@ Casper
 
 以太坊
 
-第一个允许实现智能合约的区块链系统。诞生于2013年。（阿剑）
+诞生于 2013 年的公有链。使用的账户模型（类似于银行的“账户-余额”模式）实现了对图灵完备智能合约的支持，启发了后来许多区块链项目。（阿剑）
 
 参看 [Blockchain](#blockchain)
 
@@ -488,7 +501,7 @@ Gas
 
 （1）操作以太坊区块链时衡量计算量的单位。即如果完成一个操作需要 50000 个步骤，这么完成该操作就需要操作者花费 50000 个 Gas。例如：
 
-> 从一个账户向另一个账户发送以太币，不论以太币数额多少（且没有在交易中附加额外的数据），要花费掉 21000  Gas
+> 从一个账户向另一个账户发送以太币（且没有在交易中附加额外的数据），不论以太币数额多少，要花费掉 21000  Gas
 
 （2）以太坊区块的大小并不是用数据块大小来界定的，而是用一个区块可以使用的 Gas 的额度。一个区块可以承载的所有操作使用的 Gas 总和不能超出这个额度。该额度由矿工投票确定。例如：
 
@@ -605,6 +618,46 @@ Gas 价格
 了解你的客户
 
 充分了解你的客户（KYC，Know Your Customer）是一个商业过程，用于认证和验证顾客的身份信息。也指银行对这些活动的监管。（bobjiang）（Elisa 修改）
+
+[回到索引](#术语首字母索引)
+
+### Layer-1
+
+第一层；协议层；Layer-1
+
+指区块链（分布式共识系统）的底层（协议层）。（阿剑）
+
+> 例如：
+>
+> 在比特币上，比特币本身的协议即是 Layer-1，协议层；
+>
+> 在以太坊上，以太坊本身的协议即是 Layer-1，协议层；
+
+参看 [Blockchain](#blockchain)
+
+参看 [Layer-2](#layer-2)
+
+[回到索引](#术语首字母索引)
+
+### Layer-2
+
+第二层；Layer-2
+
+指受区块链协议层支持、与主链运行相对独立（一般来说共识范围更小）、可通过一定的密码学方案与主链交互的交易执行环境。难点在于保证该环境与主链交互时候的安全性（交互时用户能不能欺诈获得不应属于 TA 的资金）。（阿剑）
+
+> 例如：
+>
+> 比特币上有一个闪电网络，人们可以将比特币存入闪电网络，然后在闪电网络上转账，有需要时再取出。闪电网络上只需要交易双方（或涉及资金转移的多方）签名表示共识即可，因此交易速度会比主链上快很多。
+>
+> 类似地，在以太坊上的状态通道项目和 Plasma 实现，也是在做这样的方案。
+
+参看 [Blockchain](#blockchain)
+
+参看 [Layer-1](#layer-1)
+
+参看 [Plasma](#plasma)
+
+参看 [State Channel](#state-channel)
 
 [回到索引](#术语首字母索引)
 
@@ -758,9 +811,21 @@ Nonce
 
 [回到索引](#术语首字母索引)
 
-### Permissioned blockchain
+### Permissioned Blockchain
 
-私有链；私链
+私有链；私链（0xl2oot）许可链（阿剑）
+
+（1）有人认为与 Private Chain（私链）同义；
+
+（2）在更为狭义的语境下，指的是不能随时参加共识进程（即出块），换句话说就是出块的权限是需要先行确定的，而不能随时进入即获得。（阿剑）
+
+> 例如：在 DPoS（委托权益证明）系统中，理论上来说，（只要愿意承担高额的费用）任何人都可以保存账本，并且任何人都可以发起交易（使用这个系统），但是，出块的权限被分配给数量固定的节点，并不是随时都可以加入，即便满足形式上的要求（比如代币占有量），也需经由一定的程序方能成为出块者。
+>
+> 虽然 DPoS 算不算 Permissioned Blockchain 仍有争议，但正是由于此类系统的出现，人们才开始思考 “permissioned” 与 “private” 的区别。
+
+参看 [Delegate Proof of Stake (DPoS)](#delegate-proof-of-stake-dpos)
+
+参看 [Permissionless Blockchain](#permissionless-chain)
 
 参看 [Private Chain](#private-chain)
 
@@ -768,13 +833,37 @@ Nonce
 
 [回到索引](#术语首字母索引)
 
-### Permissionless blockchain
+### Permissionless Blockchain
 
-公有链；公链
+公有链；公链（0xl2oot）非许可链（阿剑）
+
+（1）广义上与 Public Chain（私链）同义；
+
+（2）在更为狭义的语境下，指的是可以随时参加共识进程（即出块），无需得到任何人的授权。（阿剑）
+
+> 例如：
+>
+> PoW 工作量证明系统即是 permissionless 系统的一个代表，因为参与挖矿的矿工可以随时进入随时退出，无需得到任何授权，也无需经过特殊的程序。
+
+参看 [Proof of Work (PoW)](#proof-of-work-pow)
 
 参看 [Private Chain](#private-chain)
 
 参看 [Public Chain](#public-chain)
+
+[回到索引](#术语首字母索引)
+
+### Plasma
+
+Plasma
+
+Plasma 是一种 Layer-2 架构，在“侧链”的基础设想上再加了一个原则：让用户存入侧链的资产可以随时取出到主链上。由于 Plasma 上的运营者必定比主链节点要少，其共识过程也会更快，从而具有更高的吞吐量。Plasma 规范下有多个子规范，如 Plasma Cash、MVP，已经形成一个规范族。（阿剑）
+
+参看 [Layer-2](#layer-2)
+
+参看 [Scalability](#scalability) 
+
+参看 [Sidechain](#sidechain)
 
 [回到索引](#术语首字母索引)
 
@@ -886,9 +975,41 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Sharding
+
+分片
+
+一种区块链协议层的架构，将运行协议层客户端的节点分成群组，每一群组仅保存（和处理）系统运行中产生的一部分信息，而仍能就系统的最终状态达成共识。（阿剑）
+
+>例如：
+>
+>如果一种架构使得节点无需处理全部交易，只需处理一部分，即是所谓的“交易分片”；
+>
+>如果一组节点无需保存全部的数据，只需保存一部分，则是所谓的“数据分片”。
+>
+>目前为止（2019 年 3 月 17 日），尚没有很成熟的分片项目。
+
+参看 [Blockchain](#blockchain)
+
+参看 [Layer-1](#layer-1)
+
+[回到索引](#术语首字母索引)
+
 ### Sidechain
 
 侧链
+
+一条侧链是指一个与其主链相对独立、但又可以通过某种方式从主链接收资产并在其独立环境中转移的区块链。一般而言，侧链不会发行自己的资产，而是从主链上接收资产；侧链的用意一般在于提高吞吐量，因此其运营者也较少，不会完全开放参与。（阿剑）
+
+> 例如：
+>
+> 一条比特币的侧链，即是以 Bitcoin 为主链、通过在比特币上锁定资产来产生侧链上的资产、进入侧链的资产可以在侧链上转移而无需经过主链的共识过程的区块链。
+
+参看 [Blockchain](#blockchain)
+
+参看 [Layer-1](#layer-1)
+
+参看 [Layer-2](#layer-2)
 
 [回到索引](#术语首字母索引)
 
