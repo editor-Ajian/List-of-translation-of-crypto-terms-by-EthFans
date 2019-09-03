@@ -129,6 +129,7 @@
 
 ### N
 
+- [Nakamoto Consensus](#nakamoto-consensus)
 - [Nonce](#nonce)
 - [回到索引](#术语首字母索引)
 
@@ -166,6 +167,8 @@
 - [Stable coin](#stable-coin)
 - [State Channel](#state-channel)
 - [Storage State](#storage-state)
+- [Sybil Attack](#sybil-attack)
+- [Sybil Control Mechanism](#sybil-control-mechanism)
 - [回到索引](#术语首字母索引)
 
 ### T
@@ -218,6 +221,16 @@
 ### Application Specific Integrated Circuit (ASIC)
 
 为专门目的而设计的集成电路；
+
+ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬件；不同的是，CPU 和显卡的计算功能是通用的，即可以计算任意算法，ASIC 只能计算一种特定的算法；也正因此，在计算相应算法时，ASIC 的效率会比 CPU 和显卡高很多。（阿剑）
+
+> 例如：
+>
+> 市场上已经出现了很多专门用于某种密码学货币的挖矿的 ASIC，如：比特币 ASIC，莱特币 ASIC。
+
+参看 [Mining](#mining)
+
+参看 [Proof of Work (PoW)](#proof-of-work-pow)
 
 [回到索引](#术语首字母索引)
 
@@ -313,15 +326,23 @@ Casper
 
 共识算法
 
-特定的规则，规定在区块链上合法的区块如何产生，并对同一高度相互冲突的区块进行选择。使用这些规则的目的是让参与者在一个没有可信特定参与者的系统中形成共识，故称“共识算法”。当前常见的共识算法有 Proof of Work 和 Proof of Stake。（阿剑）
+英文中的 Consensus Algorithm 与中文中常见的 “共识算法” 一词含义并不相同。在中文世界里，我们往往会在 “共识算法” 前冠以 “PoW”、“PoS”，但在学术上，“PoW” 和 “PoS” 被归类为 “抗女巫机制”，而 “最长链规则” 才是 “Consensus Algorithm”（被称为 “中本聪共识”）。
+
+简言之，Consensus Algorithm 是在分布式的计算机网络中、由各计算机运行、用于就分布式系统中事务发生的顺序达成一致的算法。（阿剑）
 
 参看 [Block Height](#block-height)
+
+参看 [Nakamoto Consensus](#nakamoto-consensus)
 
 参看 [Proof of Work (Pow)](#proof-of-work-pow)
 
 参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
 
 参看 [Security](#security)
+
+参看 [Sybil Attack](#sybil-attack)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -781,6 +802,22 @@ Moon / Mooning
 
 [回到索引](#术语首字母索引)
 
+### Nakamoto Consensus
+
+中本聪共识
+
+配合工作量证明机制，用于在开放的分布式系统中达成共识（即形成区块链）的共识算法。其显著特点是：最长链规则（最长链即为权威链）、由工作量证明机制实现的稳定出块时间、按区块发放奖励。以其发明者的名字命名。（阿剑）
+
+> 例如：
+>
+> 比特币区块链就采用了 Nakamoto Consensus 作为其共识算法。
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Proof-of-Work(PoW)](#proof-of-work-pow)
+
+[回到索引](#术语首字母索引)
+
 ### Nonce
 
 Nonce
@@ -895,9 +932,11 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 权益证明
 
-一种共识算法。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押/质押的原生货币数量占全部抵押/质押货币的比例。
+一种抗女巫机制。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押/质押的原生货币数量占全部抵押/质押货币的比例。
 
 参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -905,7 +944,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 工作量证明
 
-一种共识算法。工作量证明要求区块链上的任一合法区块必须具有一个数据片，该数据片加入原始数据后，对整个数据块进行哈希运算所得结果能符合特定要求。在工作量证明系统中，要成为出块者（产生合法的区块），只能也只需要进行重复的哈希计算（以找到符合要求的数据片）。（阿剑）
+一种抗女巫机制。工作量证明要求区块链上的任一合法区块必须具有一个数据片，该数据片加入原始数据后，对区块头进行哈希运算所得结果能符合特定要求。在工作量证明系统中，要成为出块者（产生合法的区块），只能也只需要进行重复的哈希计算（以找到符合要求的数据片）。（阿剑）
 
 参看 [Consensus Algorithm](#consensus-algorithm)
 
@@ -914,6 +953,8 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Nonce](#nonce)
 
 参看 [Miner](#miner)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -1069,6 +1110,30 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Sybil Attack
+
+女巫攻击
+
+指在网络中通过伪造身份来干扰网络运行、谋利、甚至瘫痪网络的行为。这在开放的分布式环境中尤其是一个问题，因为在开放环境中一个人总是能伪造很多个身份。（阿剑）
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
+
+[回到索引](#术语首字母索引)
+
+### Sybil Control Mechanism
+
+抗女巫机制
+
+指在网络中缓解、遏制女巫攻击的机制。本质上来说是要求参与者付出一定的经济资源才能创造身份。（阿剑）
+
+> 例如：
+>
+> 我们常说的工作量证明和权益证明都是抗女巫机制。工作量证明是说要获得奖励你就必须投入算力；权益证明是说你必须先有一定的代币才能参与共识。但两者都没有决定节点间要如何达成共识。
+
+参看 [Sybil Attack](#sybil-attack)
+
+[回到索引](#术语首字母索引)
+
 ### Transaction
 
 交易
@@ -1082,6 +1147,8 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 图灵完备
 
 [回到索引](#术语首字母索引)
+
+
 
 ### Wallet
 
@@ -1107,7 +1174,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 51% 攻击
 
-在工作量证明或者说中本聪共识中，我们遵循最长链规则，即将最长的那条链（在工作量证明中，等价于凝聚了最多工作量的那条链）当成是唯一合法的链；与此同时，在产生分叉时，全网算力资源在不同链上的分配（即有多少算力在某条链上挖矿）决定了链生长的速度，也就间接决定了一段时间后哪条链会成为最长链。因此，如果某个主体掌握了全网 51%  的算力，那么 TA 可以在花掉一笔钱之后，在该笔交易上链以前的区块上制造分叉、挖出一条更长的链，造成双花。这样的情形就是所谓的“51% Attack”。
+在工作量证明或者说中本聪共识中，我们遵循最长链规则，即将最长的那条链（在工作量证明中，等价于凝聚了最多工作量的那条链）当成是唯一合法的链；与此同时，在产生分叉时，全网算力资源在不同链上的分配（即有多少算力在某条链上挖矿）决定了链生长的速度，也就间接决定了一段时间后哪条链会成为最长链。因此，如果某个主体掌握了全网 51%  的算力，那么 TA 可以在花掉一笔钱之后，在该笔交易上链以前的区块上制造分叉、挖出一条更长的链，造成双花。这样的情形就是所谓的 “51% Attack”。
 
 “51% 攻击”说明的是中本聪共识的安全性上限，即不能有主体拥有的出块资源数量超过全网的 50%。（阿剑）
 
