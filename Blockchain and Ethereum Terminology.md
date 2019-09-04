@@ -41,8 +41,9 @@
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Block Height](#block-height)
-- [Bitcoin Improvement Proposal(BIP)]((#bitcoin-improvement-proposal-bip))
+- [Bitcoin Improvement Proposal(BIP)](#bitcoin-improvement-proposal-bip))
 - [Block Reward](#block-reward)
+- [Block Size](#block-)
 - [Blockchain](#blockchain)
 - [回到索引](#术语首字母索引)
 
@@ -174,6 +175,7 @@
 
 ### T
 
+- [Timestamp](#timestamp)
 - [Transaction](#transaction)
 - [Turing Complete](#turing-complete)
 - [回到索引](#术语首字母索引)
@@ -291,7 +293,9 @@ BIP 指由比特币社区人员所发起的针对比特币的改进提议，它�
 
 BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)中。(曾汨)
 
-参看 [Bitcoin](#bitcoin)、[EIP](#ethereum-improvement-proposal-eip)
+参看 [Bitcoin](#bitcoin)
+
+参看[EIP](#ethereum-improvement-proposal-eip)
 
 [回到索引](#术语首字母索引)
 
@@ -304,6 +308,20 @@ BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)�
 参看 [Blockchain](#blockchain)
 
 参看 [Security](#security)
+
+[回到索引](#术语首字母索引)
+
+### Block Size
+
+区块容量
+
+区块容量，亦称区块大小，指单个区块可以存储的最大字节数，它的大小一定程度上反映了区块链处理交易的能力。（
+
+> 例如：
+>
+> 比特币的区块容量为 1 MB。
+
+参看 [Blockchain](#blockchain)
 
 [回到索引](#术语首字母索引)
 
@@ -1144,6 +1162,16 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 > 我们常说的工作量证明和权益证明都是抗女巫机制。工作量证明是说要获得奖励你就必须投入算力；权益证明是说你必须先有一定的代币才能参与共识。但两者都没有决定节点间要如何达成共识。
 
 参看 [Sybil Attack](#sybil-attack)
+
+[回到索引](#术语首字母索引)
+
+### Timestamp
+
+时间戳
+
+时间戳通常是一个字符序列，用于唯一地记录并表示在某个特定时间之前已经存在的、完整的、可验证的数据。在区块链中，每一个区块中都会被加上时间戳，这对于维护区块链不可篡改的特性起了重要作用。（曾汨）
+
+参看 [Blockchain](#blockchain)
 
 [回到索引](#术语首字母索引)
 
