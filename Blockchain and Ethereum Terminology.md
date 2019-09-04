@@ -138,6 +138,8 @@
 
 ### O
 
+- [Off Chain](#off-chain)
+- [On Chain](#on-chain)
 - [Oracle](#oracle)
 - [回到索引](#术语首字母索引)
 
@@ -872,6 +874,30 @@ Nonce
 参看 [Hash Function](#hash-function)
 
 参看 [Miner](#miner)
+
+[回到索引](#术语首字母索引)
+
+### Off Chain
+
+链下
+
+与[链上](#on-chain)相反，交易或计算的过程在主链之外完成。(曾汨)
+
+> 例如：在雷电网络的状态通道中进行的交易。
+
+参考资料：[理解以太坊的第 2 层扩展方案](https://ethfans.org/posts/making-sense-of-ethereums-layer-2-scaling-solutions)
+
+参看[链上](#on-chain)
+
+[回到索引](#术语首字母索引)
+
+### On Chain
+
+链上
+
+交易或计算的过程在区块链上进行，我们通常所言的交易即指链上交易。(曾汨)
+
+参看[链下](#off-chain)
 
 [回到索引](#术语首字母索引)
 

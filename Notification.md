@@ -4,7 +4,7 @@
 
 ## 2019-09-04
 
-（曾汨）增加词条 Bitcoin Improvement Proposal(BIP)、Block Size、Mainnet、Timestamp、Testnet
+（曾汨）增加词条 Bitcoin Improvement Proposal(BIP)、Block Size、Mainnet、Off chain、On chain、Timestamp、Testnet
 
 ## 2019-09-03
 
