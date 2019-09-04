@@ -41,6 +41,7 @@
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Block Height](#block-height)
+- [Bitcoin Improvement Proposal(BIP)]((#bitcoin-improvement-proposal-bip))
 - [Block Reward](#block-reward)
 - [Blockchain](#blockchain)
 - [回到索引](#术语首字母索引)
@@ -279,6 +280,18 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 参看 [Blockchain](#blockchain)
 
 参看 [Consensus Algorithm](#consensus-algorithm)
+
+[回到索引](#术语首字母索引)
+
+### Bitcoin Improvement Proposal(BIP)
+
+比特币改进提议
+
+BIP 指由比特币社区人员所发起的针对比特币的改进提议，它是一类设计文档，用于提供信息，或描述比特币的新功能、流程或环境。根据 BIP 目的和指南（BIP Purpose and Guidelines）的规定，BIP 具体可分为三类：标准类 BIP（Standards Track BIPs）、信息类 BIP（Informational BIPs）、过程类 BIP（Process BIPs）。
+
+BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)中。(曾汨)
+
+参看 [Bitcoin](#bitcoin)、[EIP](#ethereum-improvement-proposal-eip)
 
 [回到索引](#术语首字母索引)
 
