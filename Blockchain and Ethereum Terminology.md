@@ -184,6 +184,10 @@
 - [Turing Complete](#turing-complete)
 - [回到索引](#术语首字母索引)
 
+### U
+
+* [UTXO](#utxo)
+
 ### W
 
 - [Wallet](#wallet)
@@ -1243,7 +1247,17 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### UTXO
 
+未花费的交易输出
+
+比特币所采用的账户模型。在比特币中，每个交易消耗之前交易生成的 UTXO 然后生成新的 UTXO，账户的余额即所有属于该地址的未花费 UTXO 集合，比特币的全局状态即当前所有未花费的 UTXO 集合。（曾汨）
+
+参看 [关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
+
+参看 [Account](#account)
+
+[回到索引](#术语首字母索引)
 
 ### Wallet
 
