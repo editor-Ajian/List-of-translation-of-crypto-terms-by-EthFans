@@ -33,6 +33,7 @@
 - [Account](#account)
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+- [Atomic Swap](#atomic-swap)
 - [Autonomous Object](#autonomous-object)
 - [回到索引](#术语首字母索引)
 
@@ -242,6 +243,18 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 参看 [Mining](#mining)
 
 参看 [Proof of Work (PoW)](#proof-of-work-pow)
+
+[回到索引](#术语首字母索引)
+
+### Atomic Swap
+
+原子交换
+
+一种允许两种不同区块链上的不同代币之间直接交易的技术，无需依赖交易所等第三方机构。
+
+参看 [Atomic Swap](https://en.bitcoin.it/wiki/Atomic_swap)
+
+参看 [Transaction](#transaction)
 
 [回到索引](#术语首字母索引)
 
