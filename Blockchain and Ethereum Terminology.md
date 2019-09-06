@@ -33,6 +33,7 @@
 - [Account](#account)
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+- [Atomic Swap](#atomic-swap)
 - [Autonomous Object](#autonomous-object)
 - [回到索引](#术语首字母索引)
 
@@ -41,7 +42,9 @@
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Block Height](#block-height)
+- [Bitcoin Improvement Proposal(BIP)](#bitcoin-improvement-proposal-bip)
 - [Block Reward](#block-reward)
+- [Block Size](#block-size)
 - [Blockchain](#blockchain)
 - [回到索引](#术语首字母索引)
 
@@ -116,6 +119,7 @@
 
 ### M
 
+- [Mainnet](#mainnet)
 - [Merkle Tree](#merkle-tree)
 - [Message](#message)
 - [Message Call](#message-call)
@@ -135,6 +139,8 @@
 
 ### O
 
+- [Off Chain](#off-chain)
+- [On Chain](#on-chain)
 - [Oracle](#oracle)
 - [回到索引](#术语首字母索引)
 
@@ -173,9 +179,15 @@
 
 ### T
 
+- [Timestamp](#timestamp)
+- [Testnet](#testnet)
 - [Transaction](#transaction)
 - [Turing Complete](#turing-complete)
 - [回到索引](#术语首字母索引)
+
+### U
+
+* [UTXO](#utxo)
 
 ### W
 
@@ -234,6 +246,18 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 
 [回到索引](#术语首字母索引)
 
+### Atomic Swap
+
+原子交换
+
+一种允许两种不同区块链上的不同代币之间直接交易的技术，无需依赖交易所等第三方机构。（曾汨）
+
+参考文献：[Atomic Swap](https://en.bitcoin.it/wiki/Atomic_swap)
+
+参看 [Transaction](#transaction)
+
+[回到索引](#术语首字母索引)
+
 ### Autonomous Object
 
 自主对象
@@ -282,6 +306,20 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 
 [回到索引](#术语首字母索引)
 
+### Bitcoin Improvement Proposal(BIP)
+
+比特币改进提议
+
+BIP 指由比特币社区人员所发起的针对比特币的改进提议，它是一类设计文档，用于提供信息，或描述比特币的新功能、流程或环境。根据 BIP 目的和指南（BIP Purpose and Guidelines）的规定，BIP 具体可分为三类：标准类 BIP（Standards Track BIPs）、信息类 BIP（Informational BIPs）、过程类 BIP（Process BIPs）。
+
+BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)中。(曾汨)
+
+参看 [Bitcoin](#bitcoin)
+
+参看 [EIP](#ethereum-improvement-proposal-eip)
+
+[回到索引](#术语首字母索引)
+
 ### Block Reward
 
 区块奖励
@@ -291,6 +329,26 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 参看 [Blockchain](#blockchain)
 
 参看 [Security](#security)
+
+[回到索引](#术语首字母索引)
+
+### Block Size
+
+区块容量
+
+区块容量，亦称区块大小。在讨论不同的区块链时，该词的实际指向并不相同。讨论比特币时，区块大小指单个区块可以存储的最大字节数；在讨论以太坊时，指单个区块能够使用的最大 Gas 数量。它的大小一定程度上反映了区块链处理交易的能力。（曾汨）
+
+> 例如：
+>
+> 比特币的区块容量为 1 MB。
+> 
+> 以太坊当前（2019 年 9 月 6 日）的区块大小为 800 万 Gas。
+
+参看 [Blockchain](#blockchain)
+
+参看 [Gas](#gas)
+
+参看 [Gas Limit)(#gas-limit)
 
 [回到索引](#术语首字母索引)
 
@@ -698,6 +756,18 @@ Gas 价格
 
 [回到索引](#术语首字母索引)
 
+### Mainnet
+
+主网
+
+很多的区块链都具有主网及测试网多条链。主网是指社区公认的一条区块链，区块经过验证之后在节点之间达成共识，然后被添加到主网上。我们日常语境中的比特币区块链、以太坊区块链，即指其主网。（曾汨）
+
+参看 [Blockchain](#blockchain)
+
+参看 [Testnet](#testnet)
+
+[回到索引](#术语首字母索引)
+
 ### Merkle Tree
 
 默克尔树；梅克尔树
@@ -827,6 +897,30 @@ Nonce
 参看 [Hash Function](#hash-function)
 
 参看 [Miner](#miner)
+
+[回到索引](#术语首字母索引)
+
+### Off Chain
+
+链下
+
+与[链上](#on-chain)相反，交易或计算的过程在主链之外完成。(曾汨)
+
+> 例如：在雷电网络的状态通道中进行的交易。
+
+参考资料：[理解以太坊的第 2 层扩展方案](https://ethfans.org/posts/making-sense-of-ethereums-layer-2-scaling-solutions)
+
+参看[链上](#on-chain)
+
+[回到索引](#术语首字母索引)
+
+### On Chain
+
+链上
+
+交易或计算的过程在区块链上进行，我们通常所言的交易即指链上交易。(曾汨)
+
+参看[链下](#off-chain)
 
 [回到索引](#术语首字母索引)
 
@@ -1134,6 +1228,30 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Timestamp
+
+时间戳
+
+时间戳通常是一个字符序列，用于唯一地记录并表示在某个特定时间之前已经存在的、完整的、可验证的数据。在区块链中，每一个区块中都会被加上时间戳，这对于维护区块链不可篡改的特性起了重要作用。（曾汨）
+
+参看 [Blockchain](#blockchain)
+
+[回到索引](#术语首字母索引)
+
+### Testnet
+
+测试网
+
+测试网是指具有和主网基本相同的功能，只用于测试目的的区块链。开发人员可以在安全，独立的测试网络中执行各种测试，而不会有危害主网的风险。测试网上的代币通常没有价值。（曾汨）
+
+> 例如：以太坊的[测试网 Ropsten](https://ropsten.etherscan.io/)
+
+参看 [Blockchain](#blockchain)
+
+参看 [Mainnet](#mainnet)
+
+[回到索引](#术语首字母索引)
+
 ### Transaction
 
 交易
@@ -1148,7 +1266,17 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### UTXO
 
+未花费的交易输出
+
+比特币所采用的账户模型。在比特币中，每个交易消耗之前交易生成的 UTXO 然后生成新的 UTXO，账户的余额即所有属于该地址的未花费 UTXO 集合，比特币的全局状态即当前所有未花费的 UTXO 集合。（曾汨）
+
+参考文献：[关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
+
+参看 [Account](#account)
+
+[回到索引](#术语首字母索引)
 
 ### Wallet
 
