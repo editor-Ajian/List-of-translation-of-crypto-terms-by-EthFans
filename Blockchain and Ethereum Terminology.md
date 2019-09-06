@@ -250,9 +250,9 @@ ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬�
 
 原子交换
 
-一种允许两种不同区块链上的不同代币之间直接交易的技术，无需依赖交易所等第三方机构。
+一种允许两种不同区块链上的不同代币之间直接交易的技术，无需依赖交易所等第三方机构。（曾汨）
 
-参看 [Atomic Swap](https://en.bitcoin.it/wiki/Atomic_swap)
+参考文献：[Atomic Swap](https://en.bitcoin.it/wiki/Atomic_swap)
 
 参看 [Transaction](#transaction)
 
@@ -336,13 +336,19 @@ BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)�
 
 区块容量
 
-区块容量，亦称区块大小，指单个区块可以存储的最大字节数，它的大小一定程度上反映了区块链处理交易的能力。（曾汨）
+区块容量，亦称区块大小。在讨论不同的区块链时，该词的实际指向并不相同。讨论比特币时，区块大小指单个区块可以存储的最大字节数；在讨论以太坊时，指单个区块能够使用的最大 Gas 数量。它的大小一定程度上反映了区块链处理交易的能力。（曾汨）
 
 > 例如：
 >
 > 比特币的区块容量为 1 MB。
+> 
+> 以太坊当前（2019 年 9 月 6 日）的区块大小为 800 万 Gas。
 
 参看 [Blockchain](#blockchain)
+
+参看 [Gas](#gas)
+
+参看 [Gas Limit)(#gas-limit)
 
 [回到索引](#术语首字母索引)
 
@@ -1266,7 +1272,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 比特币所采用的账户模型。在比特币中，每个交易消耗之前交易生成的 UTXO 然后生成新的 UTXO，账户的余额即所有属于该地址的未花费 UTXO 集合，比特币的全局状态即当前所有未花费的 UTXO 集合。（曾汨）
 
-参看 [关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
+参考文献：[关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
 
 参看 [Account](#account)
 
