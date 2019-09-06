@@ -51,6 +51,7 @@
 ### C
 
 - [Casper](#casper)
+- [Cold Wallet](#cold-wallet)
 - [Consensus Algorithm](#consensus-algorithm)
 - [Contract](#contract)
 - [Cryptocurrency](#cryptocurrency)
@@ -96,6 +97,8 @@
 - [Hash Function](#hash-function)
 - [Hashrate](#hashrate)
 - [Hard Fork](#hard-fork)
+- [Hardware Wallet](#hardware-wallet)
+- [Hot Wallet](#hot-wallet)
 - [回到索引](#术语首字母索引)
 
 ### I
@@ -146,6 +149,7 @@
 
 ### P
 
+- [Paper Wallet](#paper-wallet)
 - [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
 - [Permissioned blockchain](#permissioned-blockchain)
 - [Permissionless blockchain](#permissionless-blockchain)
@@ -377,6 +381,20 @@ Casper
 由以太坊核心团队开发者 Vitalik Buterin 及 Vlad Zamfir 提出及完善的权益证明实现。主要思路是有条件罚没验证者质押在链上的保证金来为参与者的恶意行为施加负激励，从而压制共识形成过程中的恶意行为，维护区块链的安全。（阿剑）
 
 参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
+
+[回到索引](#术语首字母索引)
+
+### Cold Wallet
+
+冷钱包
+
+在非联网环境中使用的钱包。其私钥与网络隔离，是最安全的存储加密货币的方式。常见的冷钱包形式为硬件钱包。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Hot Wallet](#hot-wallet)
+
+参看 [Hardware Wallet](#hardware-wallet)
 
 [回到索引](#术语首字母索引)
 
@@ -678,6 +696,34 @@ Gas 价格
 
 [回到索引](#术语首字母索引)
 
+### Hardware Wallet
+
+硬件钱包
+
+硬件钱包是一种将私钥存储在专属硬件中的钱包，彻底消除了私钥联网的可能性。（曾汨）
+
+参考文献：[Crypto101：硬件钱包创建指南](https://ethfans.org/posts/crypto-101-hardware-wallet-setup)
+
+参考文献：[Hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet)
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
+
+[回到索引](#术语首字母索引)
+
+### Hot Wallet
+
+热钱包
+
+在联网的环境中使用的钱包，私钥有被黑客盗取的风险。我们日常使用的钱包大多为热钱包，其安全性不及冷钱包，适合日常小额交易和存储少量数字货币资产。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
+
+[回到索引](#术语首字母索引)
+
 ### Initial Coin Offering (ICO)
 
 初始代币发行
@@ -933,6 +979,18 @@ Nonce
 参看 [Blockchain](#blockchain)
 
 参看 [Smart Contract](#smart-contract)
+
+[回到索引](#术语首字母索引)
+
+### Paper Wallet
+
+纸钱包
+
+一种私钥存储方式，将私钥抄写在纸上，或将私钥打印出来以纸质形式保存。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
 
 [回到索引](#术语首字母索引)
 
