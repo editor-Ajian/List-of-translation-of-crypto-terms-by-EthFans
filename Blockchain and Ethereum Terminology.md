@@ -94,6 +94,7 @@
 
 ### H
 
+- [Halving](#halving)
 - [Hash Function](#hash-function)
 - [Hashrate](#hashrate)
 - [Hard Fork](#hard-fork)
@@ -648,6 +649,22 @@ Gas 价格
 创世区块指区块链上的第一个区块，用来初始化相应的加密货币。（bobjiang）
 
 参看 [Cryptocurrency](#cryptocurrency)
+
+[回到索引](#术语首字母索引)
+
+### Halving
+
+减半
+
+指区块链的挖矿奖励每隔一段时间（通常是四年左右）减少一半的现象。减半现象主要存在于比特币、莱特币等采用工作量证明的区块链系统中。（曾汨）
+
+> 例如：
+>
+> 在比特币网络中，区块奖励每隔 21 万个区块减半一次。第一次奖励减半发生在 2012 年 11 月，比特币的区块奖励由每个区块 50 个 BTC 降为 25 个 BTC。
+
+参看 [Bitcoin](#bitcoin)
+
+参看 [Block Reward](#block-reward)
 
 [回到索引](#术语首字母索引)
 
