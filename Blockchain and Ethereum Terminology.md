@@ -174,6 +174,7 @@
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
+- [Solidity](#solidity)
 - [Stable coin](#stable-coin)
 - [State Channel](#state-channel)
 - [Storage State](#storage-state)
@@ -1229,6 +1230,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Hashrate](#hashrate)
 
 参看 [Hard Fork](#hard-fork)
+
+[回到索引](#术语首字母索引)
+
+### Solidity
+
+Solidity 是一种用于在以太坊上开发智能合约的编程语言，语法类似 JavaScript 。(曾汨)
+
+参考文献：[Solidity](https://ethfans.org/wikis/Solidity-目录)
+
+参看 [Ethereum](#ethereum)
+
+参看 [Ethereum Virtual Machine (EVM )](#ethereum-virtual-machine-evm)
 
 [回到索引](#术语首字母索引)
 
