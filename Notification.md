@@ -2,6 +2,10 @@
 
 此处是独立出来的通知区，方便贡献者们在此撰写更新日志和交流工作！
 
+## 2019-09-09
+
+（曾汨）增加词条 Solidity
+
 ## 2019-09-06
 
 （曾汨）增加词条 Cold Wallet、Hardware Wallet、Hot Wallet、Paper Wallet
