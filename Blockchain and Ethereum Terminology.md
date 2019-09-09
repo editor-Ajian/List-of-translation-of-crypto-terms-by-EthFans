@@ -157,9 +157,11 @@
 - [Plasma](#plasma)
 - [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 - [Private Chain](#private-chain)
+- [Private Key](#private-key)
 - [Proof of Stake (PoS)](#proof-of-stake-pos)
 - [Proof of Work (PoW)](#proof-of-work-pow)
 - [Public Chain](#public-chain)
+- [Public Key](#public-key)
 - [回到索引](#术语首字母索引)
 
 ### R
@@ -1098,6 +1100,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Private Key
+
+使用非对称加密算法生成的秘钥对中不对外公开的一个，只有拥有者自己知道，区块链中的私钥常用于对数据进行签名，该签名可以被与私钥对应的公钥验证。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Public Key](#public-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
+
+[回到索引](#术语首字母索引)
+
 ### Proof of Stake (PoS)
 
 权益证明
@@ -1139,6 +1153,20 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Permissioned blockchain](#permissioned-blockchain)
 
 参看 [Permissionless blockchain](#permissionless-blockchain)
+
+[回到索引](#术语首字母索引)
+
+### Public Key
+
+公钥
+
+使用非对称加密算法生成的秘钥对中对外公开的一个，区块链中的公钥常用于验证数字签名的合法性。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Private Key](#private-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
 
 [回到索引](#术语首字母索引)
 
