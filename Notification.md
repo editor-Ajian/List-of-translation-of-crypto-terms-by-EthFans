@@ -4,7 +4,7 @@
 
 ## 2019-09-09
 
-（曾汨）增加词条 Halving、Solidity
+（曾汨）增加词条 Halving、Private Key、Public Key、Solidity
 
 ## 2019-09-06
 
