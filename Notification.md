@@ -4,7 +4,7 @@
 
 ## 2019-09-10
 
-（曾汨）增加词条 CAP Theorem
+（曾汨）增加词条 CAP Theorem、FLP impossibility
 
 ## 2019-09-09
 
