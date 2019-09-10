@@ -388,9 +388,9 @@ CAP 定理
 
 参考文献：[CAP 定理 - wikipedia](https://zh.wikipedia.org/wiki/CAP定理)
 
-参看 [Blockchain](#blockchain)
-
 参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [FLP impossibility](#flp-impossibility) 
 
 参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 
