@@ -81,6 +81,7 @@
 ### F
 
 - [Fiat Currency](#fiat-currency)
+- [FLP impossibility](#flp-impossibility) 
 - [Fork](#fork)
 - [Full Node](#full-node)
 - [回到索引](#术语首字母索引)
@@ -579,6 +580,22 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 法币；法定货币；（HuangFJ）不兑换货币（阿剑）
 
 即货币发行者不承诺会承兑为某种实物商品的货币；第二次世界大战后，各国具有垄断货币发行权的机构往往发行此种货币，且如此发行的货币具有法定偿付效力，故常常译为“法币”。（阿剑）
+
+[回到索引](#术语首字母索引)
+
+### FLP impossibility
+
+FLP 不可能原理
+
+在网络可靠，但允许节点失效（即便只有一个）的最小化异步模型系统中，不存在一个可以解决一致性问题的确定性算法。（曾汨）
+
+参考文献：[分布式共识的工作原理，Part-2：共识问题与 FLP 不可能定理](https://ethfans.org/posts/lets-take-a-crack-at-understanding-distributed-consensus-part-2)
+
+参看 [CAP Theorem](#cap-theorem)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 
 [回到索引](#术语首字母索引)
 
