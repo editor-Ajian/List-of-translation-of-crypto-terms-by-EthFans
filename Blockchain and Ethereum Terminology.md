@@ -50,6 +50,7 @@
 
 ### C
 
+- [CAP Theorem](#cap-theorem)
 - [Casper](#casper)
 - [Cold Wallet](#cold-wallet)
 - [Consensus Algorithm](#consensus-algorithm)
@@ -375,6 +376,22 @@ BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)�
 参看 [Public Chain](#public-chain)
 
 参看 [Private Chain](#private-chain)
+
+[回到索引](#术语首字母索引)
+
+### CAP Theorem
+
+CAP 定理
+
+在一个分布式系统中，不可能同时兼顾一致性（Consistency）、可用性（Availability）和分区容错性（Partition tolerance），系统只能同时满足这三项之中的两项。（曾汨）
+
+参考文献：[CAP 定理 - wikipedia](https://zh.wikipedia.org/wiki/CAP定理)
+
+参看 [Blockchain](#blockchain)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 
 [回到索引](#术语首字母索引)
 
