@@ -10,6 +10,8 @@
 
 （曾汨）增加词条 CAP Theorem、FLP impossibility
 
+（曾汨）更新参考文献 Zero Knowledge Proof
+
 ## 2019-09-09
 
 （曾汨）增加词条 Halving、Private Key、Public Key、Solidity
