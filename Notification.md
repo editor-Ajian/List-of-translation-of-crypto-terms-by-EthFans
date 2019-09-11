@@ -6,11 +6,11 @@
 
 （曾汨）增加词条 Verifiable Delay Function (VDF)、Verifiable Random Function (VRF)
 
+（曾汨）更新参考文献 Zero Knowledge Proof
+
 ## 2019-09-10
 
 （曾汨）增加词条 CAP Theorem、FLP impossibility
-
-（曾汨）更新参考文献 Zero Knowledge Proof
 
 ## 2019-09-09
 
