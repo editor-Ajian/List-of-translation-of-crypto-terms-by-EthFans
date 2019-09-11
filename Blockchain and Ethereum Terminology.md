@@ -199,6 +199,11 @@
 
 * [UTXO](#utxo)
 
+### V
+
+* [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
+* [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
+
 ### W
 
 - [Wallet](#wallet)
@@ -1425,6 +1430,30 @@ Solidity 是一种用于在以太坊上开发智能合约的编程语言，语�
 参考文献：[关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
 
 参看 [Account](#account)
+
+[回到索引](#术语首字母索引)
+
+### Verifiable Delay Function (VDF)
+
+可验证的延迟函数
+
+可验证的延迟函数是一种能够对某些伪随机生成器的输出施加时间延迟的函数。其计算成本极高，能够抵抗并行计算加速。VDF 通常会接受一个输入以及一些参数（安全参数、时间参数等），输出一个结果以及相应的证明（可以为空，如果结果能够自带证明）。验证者会依据输入、参数、输出以及结果来判断 VDF 的结果是否正确。（曾汨）
+
+参考文献：[可验证延迟函数（一）一文搞懂 VDF](https://ethfans.org/ajian1984/articles/36582#render)
+
+参看 [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
+
+[回到索引](#术语首字母索引)
+
+### Verifiable Random Function (VRF)
+
+可验证的随机函数
+
+可验证的随机函数是一种可以将输入转化为可验证的伪随机数输出的函数。（曾汨）
+
+参考文献：[Verifiable Random Function-Wikipedia](https://en.wikipedia.org/wiki/Verifiable_random_function)
+
+参看 [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
 
 [回到索引](#术语首字母索引)
 
