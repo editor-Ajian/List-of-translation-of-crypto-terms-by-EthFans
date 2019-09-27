@@ -50,7 +50,9 @@
 
 ### C
 
+- [CAP Theorem](#cap-theorem)
 - [Casper](#casper)
+- [Cold Wallet](#cold-wallet)
 - [Consensus Algorithm](#consensus-algorithm)
 - [Contract](#contract)
 - [Cryptocurrency](#cryptocurrency)
@@ -79,6 +81,7 @@
 ### F
 
 - [Fiat Currency](#fiat-currency)
+- [FLP impossibility](#flp-impossibility) 
 - [Fork](#fork)
 - [Full Node](#full-node)
 - [回到索引](#术语首字母索引)
@@ -93,9 +96,12 @@
 
 ### H
 
+- [Halving](#halving)
 - [Hash Function](#hash-function)
 - [Hashrate](#hashrate)
 - [Hard Fork](#hard-fork)
+- [Hardware Wallet](#hardware-wallet)
+- [Hot Wallet](#hot-wallet)
 - [回到索引](#术语首字母索引)
 
 ### I
@@ -146,15 +152,18 @@
 
 ### P
 
+- [Paper Wallet](#paper-wallet)
 - [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
 - [Permissioned blockchain](#permissioned-blockchain)
 - [Permissionless blockchain](#permissionless-blockchain)
 - [Plasma](#plasma)
 - [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 - [Private Chain](#private-chain)
+- [Private Key](#private-key)
 - [Proof of Stake (PoS)](#proof-of-stake-pos)
 - [Proof of Work (PoW)](#proof-of-work-pow)
 - [Public Chain](#public-chain)
+- [Public Key](#public-key)
 - [回到索引](#术语首字母索引)
 
 ### R
@@ -170,6 +179,7 @@
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
+- [Solidity](#solidity)
 - [Stable coin](#stable-coin)
 - [State Channel](#state-channel)
 - [Storage State](#storage-state)
@@ -188,6 +198,11 @@
 ### U
 
 * [UTXO](#utxo)
+
+### V
+
+* [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
+* [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
 
 ### W
 
@@ -370,6 +385,22 @@ BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)�
 
 [回到索引](#术语首字母索引)
 
+### CAP Theorem
+
+CAP 定理
+
+在一个分布式系统中，不可能同时兼顾一致性（Consistency）、可用性（Availability）和分区容错性（Partition tolerance），系统只能同时满足这三项之中的两项。（曾汨）
+
+参考文献：[CAP 定理 - wikipedia](https://zh.wikipedia.org/wiki/CAP定理)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [FLP impossibility](#flp-impossibility) 
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
+
+[回到索引](#术语首字母索引)
+
 ### Casper
 
 Casper
@@ -377,6 +408,20 @@ Casper
 由以太坊核心团队开发者 Vitalik Buterin 及 Vlad Zamfir 提出及完善的权益证明实现。主要思路是有条件罚没验证者质押在链上的保证金来为参与者的恶意行为施加负激励，从而压制共识形成过程中的恶意行为，维护区块链的安全。（阿剑）
 
 参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
+
+[回到索引](#术语首字母索引)
+
+### Cold Wallet
+
+冷钱包
+
+在非联网环境中使用的钱包。其私钥与网络隔离，是最安全的存储加密货币的方式。常见的冷钱包形式为硬件钱包。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Hot Wallet](#hot-wallet)
+
+参看 [Hardware Wallet](#hardware-wallet)
 
 [回到索引](#术语首字母索引)
 
@@ -543,6 +588,22 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 [回到索引](#术语首字母索引)
 
+### FLP impossibility
+
+FLP 不可能原理
+
+在网络可靠，但允许节点失效（即便只有一个）的最小化异步模型系统中，不存在一个可以解决一致性问题的确定性算法。（曾汨）
+
+参考文献：[分布式共识的工作原理，Part-2：共识问题与 FLP 不可能定理](https://ethfans.org/posts/lets-take-a-crack-at-understanding-distributed-consensus-part-2)
+
+参看 [CAP Theorem](#cap-theorem)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
+
+[回到索引](#术语首字母索引)
+
 ### Fork
 
 分叉
@@ -632,6 +693,22 @@ Gas 价格
 
 [回到索引](#术语首字母索引)
 
+### Halving
+
+减半
+
+指区块链的挖矿奖励每隔一段时间（通常是四年左右）减少一半的现象。减半现象主要存在于比特币、莱特币等采用工作量证明的区块链系统中。（曾汨）
+
+> 例如：
+>
+> 在比特币网络中，区块奖励每隔 21 万个区块减半一次。第一次奖励减半发生在 2012 年 11 月，比特币的区块奖励由每个区块 50 个 BTC 降为 25 个 BTC。
+
+参看 [Bitcoin](#bitcoin)
+
+参看 [Block Reward](#block-reward)
+
+[回到索引](#术语首字母索引)
+
 ### Hash Function
 
 哈希方程；散列函数
@@ -675,6 +752,34 @@ Gas 价格
 参看 [Hashrate](#hashrate)
 
 参看 [Soft Fork](#soft-fork)
+
+[回到索引](#术语首字母索引)
+
+### Hardware Wallet
+
+硬件钱包
+
+硬件钱包是一种将私钥存储在专属硬件中的钱包，彻底消除了私钥联网的可能性。（曾汨）
+
+参考文献：[Crypto101：硬件钱包创建指南](https://ethfans.org/posts/crypto-101-hardware-wallet-setup)
+
+参考文献：[Hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet)
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
+
+[回到索引](#术语首字母索引)
+
+### Hot Wallet
+
+热钱包
+
+在联网的环境中使用的钱包，私钥有被黑客盗取的风险。我们日常使用的钱包大多为热钱包，其安全性不及冷钱包，适合日常小额交易和存储少量数字货币资产。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
 
 [回到索引](#术语首字母索引)
 
@@ -936,6 +1041,18 @@ Nonce
 
 [回到索引](#术语首字母索引)
 
+### Paper Wallet
+
+纸钱包
+
+一种私钥存储方式，将私钥抄写在纸上，或将私钥打印出来以纸质形式保存。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
+
+[回到索引](#术语首字母索引)
+
 ### Peer-to-Peer (P2P)
 
 点对点
@@ -1022,6 +1139,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Private Key
+
+使用非对称加密算法生成的秘钥对中不对外公开的一个，只有拥有者自己知道，区块链中的私钥常用于对数据进行签名，该签名可以被与私钥对应的公钥验证。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Public Key](#public-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
+
+[回到索引](#术语首字母索引)
+
 ### Proof of Stake (PoS)
 
 权益证明
@@ -1063,6 +1192,20 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Permissioned blockchain](#permissioned-blockchain)
 
 参看 [Permissionless blockchain](#permissionless-blockchain)
+
+[回到索引](#术语首字母索引)
+
+### Public Key
+
+公钥
+
+使用非对称加密算法生成的秘钥对中对外公开的一个，区块链中的公钥常用于验证数字签名的合法性。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Private Key](#private-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
 
 [回到索引](#术语首字母索引)
 
@@ -1174,6 +1317,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Solidity
+
+Solidity 是一种用于在以太坊上开发智能合约的编程语言，语法类似 JavaScript 。(曾汨)
+
+参考文献：[Solidity](https://ethfans.org/wikis/Solidity-目录)
+
+参看 [Ethereum](#ethereum)
+
+参看 [Ethereum Virtual Machine (EVM )](#ethereum-virtual-machine-evm)
+
+[回到索引](#术语首字母索引)
+
 ### Stable coin
 
 稳定币
@@ -1278,6 +1433,30 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Verifiable Delay Function (VDF)
+
+可验证的延迟函数
+
+可验证的延迟函数是一种能够对某些伪随机生成器的输出施加时间延迟的函数。其计算成本极高，能够抵抗并行计算加速。VDF 通常会接受一个输入以及一些参数（安全参数、时间参数等），输出一个结果以及相应的证明（可以为空，如果结果能够自带证明）。验证者会依据输入、参数、输出以及结果来判断 VDF 的结果是否正确。（曾汨）
+
+参考文献：[可验证延迟函数（一）一文搞懂 VDF](https://ethfans.org/ajian1984/articles/36582#render)
+
+参看 [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
+
+[回到索引](#术语首字母索引)
+
+### Verifiable Random Function (VRF)
+
+可验证的随机函数
+
+可验证的随机函数是一种可以将输入转化为可验证的伪随机数输出的函数。（曾汨）
+
+参考文献：[Verifiable Random Function-Wikipedia](https://en.wikipedia.org/wiki/Verifiable_random_function)
+
+参看 [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
+
+[回到索引](#术语首字母索引)
+
 ### Wallet
 
 钱包
@@ -1295,6 +1474,8 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 例如：
 
 > 假设你（验证者）知道某个屋子里有个独一无二的东西，而我（证明者）想向你证明我有一把钥匙可以打开某扇门；你把这扇门安到那个屋子里，然后等着我在你没看见的时候把东西拿出来。如果我能拿出那样东西，那么我就做到了既没有向你出示钥匙，又证明了我确实拥有钥匙。这个证明过程就是所谓的“零知识证明”，即证明过程不会向验证者透露具体的信息。
+
+参考文献：[何谓“零知识”，何谓“证明”？](https://ethfans.org/posts/zero-knowledge-and-proof-part-1)
 
 [回到索引](#术语首字母索引)
 
