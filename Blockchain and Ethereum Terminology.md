@@ -33,6 +33,7 @@
 - [Account](#account)
 - [Address](#address)
 - [Application Specific Integrated Circuit (ASIC)](#application-specific-integrated-circuit-asic)
+- [Atomic Swap](#atomic-swap)
 - [Autonomous Object](#autonomous-object)
 - [回到索引](#术语首字母索引)
 
@@ -41,13 +42,17 @@
 - [Bitcoin](#bitcoin)
 - [Bitcoin Alternative (Altcoin)](#bitcoin-alternative-altcoin)
 - [Block Height](#block-height)
+- [Bitcoin Improvement Proposal(BIP)](#bitcoin-improvement-proposal-bip)
 - [Block Reward](#block-reward)
+- [Block Size](#block-size)
 - [Blockchain](#blockchain)
 - [回到索引](#术语首字母索引)
 
 ### C
 
+- [CAP Theorem](#cap-theorem)
 - [Casper](#casper)
+- [Cold Wallet](#cold-wallet)
 - [Consensus Algorithm](#consensus-algorithm)
 - [Contract](#contract)
 - [Cryptocurrency](#cryptocurrency)
@@ -76,6 +81,7 @@
 ### F
 
 - [Fiat Currency](#fiat-currency)
+- [FLP impossibility](#flp-impossibility) 
 - [Fork](#fork)
 - [Full Node](#full-node)
 - [回到索引](#术语首字母索引)
@@ -90,9 +96,12 @@
 
 ### H
 
+- [Halving](#halving)
 - [Hash Function](#hash-function)
 - [Hashrate](#hashrate)
 - [Hard Fork](#hard-fork)
+- [Hardware Wallet](#hardware-wallet)
+- [Hot Wallet](#hot-wallet)
 - [回到索引](#术语首字母索引)
 
 ### I
@@ -116,6 +125,7 @@
 
 ### M
 
+- [Mainnet](#mainnet)
 - [Merkle Tree](#merkle-tree)
 - [Message](#message)
 - [Message Call](#message-call)
@@ -129,25 +139,31 @@
 
 ### N
 
+- [Nakamoto Consensus](#nakamoto-consensus)
 - [Nonce](#nonce)
 - [回到索引](#术语首字母索引)
 
 ### O
 
+- [Off Chain](#off-chain)
+- [On Chain](#on-chain)
 - [Oracle](#oracle)
 - [回到索引](#术语首字母索引)
 
 ### P
 
+- [Paper Wallet](#paper-wallet)
 - [Peer-to-Peer (P2P)](#peer-to-peer-p2p)
 - [Permissioned blockchain](#permissioned-blockchain)
 - [Permissionless blockchain](#permissionless-blockchain)
 - [Plasma](#plasma)
 - [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
 - [Private Chain](#private-chain)
+- [Private Key](#private-key)
 - [Proof of Stake (PoS)](#proof-of-stake-pos)
 - [Proof of Work (PoW)](#proof-of-work-pow)
 - [Public Chain](#public-chain)
+- [Public Key](#public-key)
 - [回到索引](#术语首字母索引)
 
 ### R
@@ -163,16 +179,30 @@
 - [Sidechain](#sidechain)
 - [Smart Contract](#smart-contract)
 - [Soft Fork](#soft-fork)
+- [Solidity](#solidity)
 - [Stable coin](#stable-coin)
 - [State Channel](#state-channel)
 - [Storage State](#storage-state)
+- [Sybil Attack](#sybil-attack)
+- [Sybil Control Mechanism](#sybil-control-mechanism)
 - [回到索引](#术语首字母索引)
 
 ### T
 
+- [Timestamp](#timestamp)
+- [Testnet](#testnet)
 - [Transaction](#transaction)
 - [Turing Complete](#turing-complete)
 - [回到索引](#术语首字母索引)
+
+### U
+
+* [UTXO](#utxo)
+
+### V
+
+* [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
+* [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
 
 ### W
 
@@ -218,6 +248,28 @@
 ### Application Specific Integrated Circuit (ASIC)
 
 为专门目的而设计的集成电路；
+
+ASIC 相似于我们电脑的 CPU 和显卡，是一种具备计算功能的硬件；不同的是，CPU 和显卡的计算功能是通用的，即可以计算任意算法，ASIC 只能计算一种特定的算法；也正因此，在计算相应算法时，ASIC 的效率会比 CPU 和显卡高很多。（阿剑）
+
+> 例如：
+>
+> 市场上已经出现了很多专门用于某种密码学货币的挖矿的 ASIC，如：比特币 ASIC，莱特币 ASIC。
+
+参看 [Mining](#mining)
+
+参看 [Proof of Work (PoW)](#proof-of-work-pow)
+
+[回到索引](#术语首字母索引)
+
+### Atomic Swap
+
+原子交换
+
+一种允许两种不同区块链上的不同代币之间直接交易的技术，无需依赖交易所等第三方机构。（曾汨）
+
+参考文献：[Atomic Swap](https://en.bitcoin.it/wiki/Atomic_swap)
+
+参看 [Transaction](#transaction)
 
 [回到索引](#术语首字母索引)
 
@@ -269,6 +321,20 @@
 
 [回到索引](#术语首字母索引)
 
+### Bitcoin Improvement Proposal(BIP)
+
+比特币改进提议
+
+BIP 指由比特币社区人员所发起的针对比特币的改进提议，它是一类设计文档，用于提供信息，或描述比特币的新功能、流程或环境。根据 BIP 目的和指南（BIP Purpose and Guidelines）的规定，BIP 具体可分为三类：标准类 BIP（Standards Track BIPs）、信息类 BIP（Informational BIPs）、过程类 BIP（Process BIPs）。
+
+BIP 记录在[GitHub 上的版本化存储库](https://github.com/bitcoin/bips)中。(曾汨)
+
+参看 [Bitcoin](#bitcoin)
+
+参看 [EIP](#ethereum-improvement-proposal-eip)
+
+[回到索引](#术语首字母索引)
+
 ### Block Reward
 
 区块奖励
@@ -278,6 +344,26 @@
 参看 [Blockchain](#blockchain)
 
 参看 [Security](#security)
+
+[回到索引](#术语首字母索引)
+
+### Block Size
+
+区块容量
+
+区块容量，亦称区块大小。在讨论不同的区块链时，该词的实际指向并不相同。讨论比特币时，区块大小指单个区块可以存储的最大字节数；在讨论以太坊时，指单个区块能够使用的最大 Gas 数量。它的大小一定程度上反映了区块链处理交易的能力。（曾汨）
+
+> 例如：
+>
+> 比特币的区块容量为 1 MB。
+> 
+> 以太坊当前（2019 年 9 月 6 日）的区块大小为 800 万 Gas。
+
+参看 [Blockchain](#blockchain)
+
+参看 [Gas](#gas)
+
+参看 [Gas Limit)(#gas-limit)
 
 [回到索引](#术语首字母索引)
 
@@ -299,6 +385,22 @@
 
 [回到索引](#术语首字母索引)
 
+### CAP Theorem
+
+CAP 定理
+
+在一个分布式系统中，不可能同时兼顾一致性（Consistency）、可用性（Availability）和分区容错性（Partition tolerance），系统只能同时满足这三项之中的两项。（曾汨）
+
+参考文献：[CAP 定理 - wikipedia](https://zh.wikipedia.org/wiki/CAP定理)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [FLP impossibility](#flp-impossibility) 
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
+
+[回到索引](#术语首字母索引)
+
 ### Casper
 
 Casper
@@ -309,19 +411,41 @@ Casper
 
 [回到索引](#术语首字母索引)
 
+### Cold Wallet
+
+冷钱包
+
+在非联网环境中使用的钱包。其私钥与网络隔离，是最安全的存储加密货币的方式。常见的冷钱包形式为硬件钱包。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Hot Wallet](#hot-wallet)
+
+参看 [Hardware Wallet](#hardware-wallet)
+
+[回到索引](#术语首字母索引)
+
 ### Consensus Algorithm
 
 共识算法
 
-特定的规则，规定在区块链上合法的区块如何产生，并对同一高度相互冲突的区块进行选择。使用这些规则的目的是让参与者在一个没有可信特定参与者的系统中形成共识，故称“共识算法”。当前常见的共识算法有 Proof of Work 和 Proof of Stake。（阿剑）
+英文中的 Consensus Algorithm 与中文中常见的 “共识算法” 一词含义并不相同。在中文世界里，我们往往会在 “共识算法” 前冠以 “PoW”、“PoS”，但在学术上，“PoW” 和 “PoS” 被归类为 “抗女巫机制”，而 “最长链规则” 才是 “Consensus Algorithm”（被称为 “中本聪共识”）。
+
+简言之，Consensus Algorithm 是在分布式的计算机网络中、由各计算机运行、用于就分布式系统中事务发生的顺序达成一致的算法。（阿剑）
 
 参看 [Block Height](#block-height)
+
+参看 [Nakamoto Consensus](#nakamoto-consensus)
 
 参看 [Proof of Work (Pow)](#proof-of-work-pow)
 
 参看 [Proof of Stake (PoS)](#proof-of-stake-pos)
 
 参看 [Security](#security)
+
+参看 [Sybil Attack](#sybil-attack)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -464,6 +588,22 @@ EIP 描述了以太坊平台的标准，包含核心协议规范、客户端 API
 
 [回到索引](#术语首字母索引)
 
+### FLP impossibility
+
+FLP 不可能原理
+
+在网络可靠，但允许节点失效（即便只有一个）的最小化异步模型系统中，不存在一个可以解决一致性问题的确定性算法。（曾汨）
+
+参考文献：[分布式共识的工作原理，Part-2：共识问题与 FLP 不可能定理](https://ethfans.org/posts/lets-take-a-crack-at-understanding-distributed-consensus-part-2)
+
+参看 [CAP Theorem](#cap-theorem)
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Practical Byzantine Fault Tolerance (PBFT)](#practical-byzantine-fault-tolerance-pbft)
+
+[回到索引](#术语首字母索引)
+
 ### Fork
 
 分叉
@@ -553,6 +693,22 @@ Gas 价格
 
 [回到索引](#术语首字母索引)
 
+### Halving
+
+减半
+
+指区块链的挖矿奖励每隔一段时间（通常是四年左右）减少一半的现象。减半现象主要存在于比特币、莱特币等采用工作量证明的区块链系统中。（曾汨）
+
+> 例如：
+>
+> 在比特币网络中，区块奖励每隔 21 万个区块减半一次。第一次奖励减半发生在 2012 年 11 月，比特币的区块奖励由每个区块 50 个 BTC 降为 25 个 BTC。
+
+参看 [Bitcoin](#bitcoin)
+
+参看 [Block Reward](#block-reward)
+
+[回到索引](#术语首字母索引)
+
 ### Hash Function
 
 哈希方程；散列函数
@@ -596,6 +752,34 @@ Gas 价格
 参看 [Hashrate](#hashrate)
 
 参看 [Soft Fork](#soft-fork)
+
+[回到索引](#术语首字母索引)
+
+### Hardware Wallet
+
+硬件钱包
+
+硬件钱包是一种将私钥存储在专属硬件中的钱包，彻底消除了私钥联网的可能性。（曾汨）
+
+参考文献：[Crypto101：硬件钱包创建指南](https://ethfans.org/posts/crypto-101-hardware-wallet-setup)
+
+参考文献：[Hardware wallet](https://en.bitcoin.it/wiki/Hardware_wallet)
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
+
+[回到索引](#术语首字母索引)
+
+### Hot Wallet
+
+热钱包
+
+在联网的环境中使用的钱包，私钥有被黑客盗取的风险。我们日常使用的钱包大多为热钱包，其安全性不及冷钱包，适合日常小额交易和存储少量数字货币资产。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
 
 [回到索引](#术语首字母索引)
 
@@ -674,6 +858,18 @@ Gas 价格
 ### Lightning Network
 
 闪电网络
+
+[回到索引](#术语首字母索引)
+
+### Mainnet
+
+主网
+
+很多的区块链都具有主网及测试网多条链。主网是指社区公认的一条区块链，区块经过验证之后在节点之间达成共识，然后被添加到主网上。我们日常语境中的比特币区块链、以太坊区块链，即指其主网。（曾汨）
+
+参看 [Blockchain](#blockchain)
+
+参看 [Testnet](#testnet)
 
 [回到索引](#术语首字母索引)
 
@@ -781,6 +977,22 @@ Moon / Mooning
 
 [回到索引](#术语首字母索引)
 
+### Nakamoto Consensus
+
+中本聪共识
+
+配合工作量证明机制，用于在开放的分布式系统中达成共识（即形成区块链）的共识算法。其显著特点是：最长链规则（最长链即为权威链）、由工作量证明机制实现的稳定出块时间、按区块发放奖励。以其发明者的名字命名。（阿剑）
+
+> 例如：
+>
+> 比特币区块链就采用了 Nakamoto Consensus 作为其共识算法。
+
+参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Proof-of-Work(PoW)](#proof-of-work-pow)
+
+[回到索引](#术语首字母索引)
+
 ### Nonce
 
 Nonce
@@ -793,6 +1005,30 @@ Nonce
 
 [回到索引](#术语首字母索引)
 
+### Off Chain
+
+链下
+
+与[链上](#on-chain)相反，交易或计算的过程在主链之外完成。(曾汨)
+
+> 例如：在雷电网络的状态通道中进行的交易。
+
+参考资料：[理解以太坊的第 2 层扩展方案](https://ethfans.org/posts/making-sense-of-ethereums-layer-2-scaling-solutions)
+
+参看[链上](#on-chain)
+
+[回到索引](#术语首字母索引)
+
+### On Chain
+
+链上
+
+交易或计算的过程在区块链上进行，我们通常所言的交易即指链上交易。(曾汨)
+
+参看[链下](#off-chain)
+
+[回到索引](#术语首字母索引)
+
 ### Oracle
 
 预言机
@@ -802,6 +1038,18 @@ Nonce
 参看 [Blockchain](#blockchain)
 
 参看 [Smart Contract](#smart-contract)
+
+[回到索引](#术语首字母索引)
+
+### Paper Wallet
+
+纸钱包
+
+一种私钥存储方式，将私钥抄写在纸上，或将私钥打印出来以纸质形式保存。（曾汨）
+
+参看 [Wallet](#wallet)
+
+参看 [Cold Wallet](#cold-wallet)
 
 [回到索引](#术语首字母索引)
 
@@ -891,13 +1139,27 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Private Key
+
+使用非对称加密算法生成的秘钥对中不对外公开的一个，只有拥有者自己知道，区块链中的私钥常用于对数据进行签名，该签名可以被与私钥对应的公钥验证。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Public Key](#public-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
+
+[回到索引](#术语首字母索引)
+
 ### Proof of Stake (PoS)
 
 权益证明
 
-一种共识算法。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押/质押的原生货币数量占全部抵押/质押货币的比例。
+一种抗女巫机制。即要求合法区块的产生必须获得相关参与者一定比例的投票同意，对同一高度相互冲突的区块也通过同样的投票规则来抉择；参与者的投票权重等同于其抵押/质押的原生货币数量占全部抵押/质押货币的比例。
 
 参看 [Consensus Algorithm](#consensus-algorithm)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -905,7 +1167,7 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 工作量证明
 
-一种共识算法。工作量证明要求区块链上的任一合法区块必须具有一个数据片，该数据片加入原始数据后，对整个数据块进行哈希运算所得结果能符合特定要求。在工作量证明系统中，要成为出块者（产生合法的区块），只能也只需要进行重复的哈希计算（以找到符合要求的数据片）。（阿剑）
+一种抗女巫机制。工作量证明要求区块链上的任一合法区块必须具有一个数据片，该数据片加入原始数据后，对区块头进行哈希运算所得结果能符合特定要求。在工作量证明系统中，要成为出块者（产生合法的区块），只能也只需要进行重复的哈希计算（以找到符合要求的数据片）。（阿剑）
 
 参看 [Consensus Algorithm](#consensus-algorithm)
 
@@ -914,6 +1176,8 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Nonce](#nonce)
 
 参看 [Miner](#miner)
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
 
 [回到索引](#术语首字母索引)
 
@@ -928,6 +1192,20 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 参看 [Permissioned blockchain](#permissioned-blockchain)
 
 参看 [Permissionless blockchain](#permissionless-blockchain)
+
+[回到索引](#术语首字母索引)
+
+### Public Key
+
+公钥
+
+使用非对称加密算法生成的秘钥对中对外公开的一个，区块链中的公钥常用于验证数字签名的合法性。（曾汨）
+
+参看 [Key Pair](#key-pair)
+
+参看 [Private Key](#private-key)
+
+参见 [Elliptic Curve Cryptography](#elliptic-curve-cryptography)
 
 [回到索引](#术语首字母索引)
 
@@ -1039,6 +1317,18 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Solidity
+
+Solidity 是一种用于在以太坊上开发智能合约的编程语言，语法类似 JavaScript 。(曾汨)
+
+参考文献：[Solidity](https://ethfans.org/wikis/Solidity-目录)
+
+参看 [Ethereum](#ethereum)
+
+参看 [Ethereum Virtual Machine (EVM )](#ethereum-virtual-machine-evm)
+
+[回到索引](#术语首字母索引)
+
 ### Stable coin
 
 稳定币
@@ -1069,6 +1359,54 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 [回到索引](#术语首字母索引)
 
+### Sybil Attack
+
+女巫攻击
+
+指在网络中通过伪造身份来干扰网络运行、谋利、甚至瘫痪网络的行为。这在开放的分布式环境中尤其是一个问题，因为在开放环境中一个人总是能伪造很多个身份。（阿剑）
+
+参看 [Sybil Control Mechanism](#sybil-control-mechanism)
+
+[回到索引](#术语首字母索引)
+
+### Sybil Control Mechanism
+
+抗女巫机制
+
+指在网络中缓解、遏制女巫攻击的机制。本质上来说是要求参与者付出一定的经济资源才能创造身份。（阿剑）
+
+> 例如：
+>
+> 我们常说的工作量证明和权益证明都是抗女巫机制。工作量证明是说要获得奖励你就必须投入算力；权益证明是说你必须先有一定的代币才能参与共识。但两者都没有决定节点间要如何达成共识。
+
+参看 [Sybil Attack](#sybil-attack)
+
+[回到索引](#术语首字母索引)
+
+### Timestamp
+
+时间戳
+
+时间戳通常是一个字符序列，用于唯一地记录并表示在某个特定时间之前已经存在的、完整的、可验证的数据。在区块链中，每一个区块中都会被加上时间戳，这对于维护区块链不可篡改的特性起了重要作用。（曾汨）
+
+参看 [Blockchain](#blockchain)
+
+[回到索引](#术语首字母索引)
+
+### Testnet
+
+测试网
+
+测试网是指具有和主网基本相同的功能，只用于测试目的的区块链。开发人员可以在安全，独立的测试网络中执行各种测试，而不会有危害主网的风险。测试网上的代币通常没有价值。（曾汨）
+
+> 例如：以太坊的[测试网 Ropsten](https://ropsten.etherscan.io/)
+
+参看 [Blockchain](#blockchain)
+
+参看 [Mainnet](#mainnet)
+
+[回到索引](#术语首字母索引)
+
 ### Transaction
 
 交易
@@ -1080,6 +1418,42 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 ### Turing Complete
 
 图灵完备
+
+[回到索引](#术语首字母索引)
+
+### UTXO
+
+未花费的交易输出
+
+比特币所采用的账户模型。在比特币中，每个交易消耗之前交易生成的 UTXO 然后生成新的 UTXO，账户的余额即所有属于该地址的未花费 UTXO 集合，比特币的全局状态即当前所有未花费的 UTXO 集合。（曾汨）
+
+参考文献：[关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
+
+参看 [Account](#account)
+
+[回到索引](#术语首字母索引)
+
+### Verifiable Delay Function (VDF)
+
+可验证的延迟函数
+
+可验证的延迟函数是一种能够对某些伪随机生成器的输出施加时间延迟的函数。其计算成本极高，能够抵抗并行计算加速。VDF 通常会接受一个输入以及一些参数（安全参数、时间参数等），输出一个结果以及相应的证明（可以为空，如果结果能够自带证明）。验证者会依据输入、参数、输出以及结果来判断 VDF 的结果是否正确。（曾汨）
+
+参考文献：[可验证延迟函数（一）一文搞懂 VDF](https://ethfans.org/ajian1984/articles/36582#render)
+
+参看 [Verifiable Random Function (VRF)](#verifiable-random-function-vrf)
+
+[回到索引](#术语首字母索引)
+
+### Verifiable Random Function (VRF)
+
+可验证的随机函数
+
+可验证的随机函数是一种可以将输入转化为可验证的伪随机数输出的函数。（曾汨）
+
+参考文献：[Verifiable Random Function-Wikipedia](https://en.wikipedia.org/wiki/Verifiable_random_function)
+
+参看 [Verifiable Delay Function (VDF)](verifiable-delay-function-vdf)
 
 [回到索引](#术语首字母索引)
 
@@ -1101,13 +1475,15 @@ PBFT 是 Practical Byzantine Fault Tolerance 的缩写，意为实用拜占庭�
 
 > 假设你（验证者）知道某个屋子里有个独一无二的东西，而我（证明者）想向你证明我有一把钥匙可以打开某扇门；你把这扇门安到那个屋子里，然后等着我在你没看见的时候把东西拿出来。如果我能拿出那样东西，那么我就做到了既没有向你出示钥匙，又证明了我确实拥有钥匙。这个证明过程就是所谓的“零知识证明”，即证明过程不会向验证者透露具体的信息。
 
+参考文献：[何谓“零知识”，何谓“证明”？](https://ethfans.org/posts/zero-knowledge-and-proof-part-1)
+
 [回到索引](#术语首字母索引)
 
 ### 51% Attack
 
 51% 攻击
 
-在工作量证明或者说中本聪共识中，我们遵循最长链规则，即将最长的那条链（在工作量证明中，等价于凝聚了最多工作量的那条链）当成是唯一合法的链；与此同时，在产生分叉时，全网算力资源在不同链上的分配（即有多少算力在某条链上挖矿）决定了链生长的速度，也就间接决定了一段时间后哪条链会成为最长链。因此，如果某个主体掌握了全网 51%  的算力，那么 TA 可以在花掉一笔钱之后，在该笔交易上链以前的区块上制造分叉、挖出一条更长的链，造成双花。这样的情形就是所谓的“51% Attack”。
+在工作量证明或者说中本聪共识中，我们遵循最长链规则，即将最长的那条链（在工作量证明中，等价于凝聚了最多工作量的那条链）当成是唯一合法的链；与此同时，在产生分叉时，全网算力资源在不同链上的分配（即有多少算力在某条链上挖矿）决定了链生长的速度，也就间接决定了一段时间后哪条链会成为最长链。因此，如果某个主体掌握了全网 51%  的算力，那么 TA 可以在花掉一笔钱之后，在该笔交易上链以前的区块上制造分叉、挖出一条更长的链，造成双花。这样的情形就是所谓的 “51% Attack”。
 
 “51% 攻击”说明的是中本聪共识的安全性上限，即不能有主体拥有的出块资源数量超过全网的 50%。（阿剑）
 
