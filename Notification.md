@@ -2,6 +2,12 @@
 
 此处是独立出来的通知区，方便贡献者们在此撰写更新日志和交流工作！
 
+## 2020-07-08
+
+（阿剑）更新简介 Consensus Algorithm、Decentralized、Nonce、Proof of Stake（PoS）、Sybil Attack
+
+（阿剑）增加词条及简介 Distributed System、Long Range Attack、Nothing-at-Stake、Validator
+
 ## 2019-09-03
 
 （阿剑）增加词条及简介 Nakamoto Consensus、Sybil Attack、Sybil Control Mechanism
